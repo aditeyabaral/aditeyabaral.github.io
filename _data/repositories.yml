@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - aditeyabaral
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - aditeyabaral/calbert
+  - aditeyabaral/maple
+  - aditeyabaral/kepler-exoplanet-analysis
+  - aditeyabaral/aditeyabaral.github.io

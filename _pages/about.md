@@ -21,7 +21,7 @@ Hi there! 👋
 
 I am a Big Data Analytics Engineer at Cisco Webex. I recently completed my Bachelors in Computer Science from PES University, India and graduated with a specialisation in Machine Learning and Data Science. 
 
-My primary interests lie in theoretical machine learning and NLP research. I specifically work extensively in the field of transfer learning and language representation models, with a focus on creating domain adaptive architectures that aid natural language understanding across a variety of tasks. I have previously worked as a research intern at Intel Research India as well as the Center for Cloud Computing & Big Data, PES University. You can read about my current work as well as my published research on my [publications](/publications/) page.
+My primary interests lie in theoretical machine learning and NLP research. I specifically work extensively in the field of transfer learning and language representation models, with a focus on creating domain adaptive architectures that aid natural language understanding across a variety of tasks. I have previously worked as a research intern at Intel Research India as well as the Center for Cloud Computing & Big Data, PES University. You can read about my current and my published research on my [publications](/publications/) page.
 
 When I am not occupied with work, I engage in mobile photography, travelling, football and movies. 
 
