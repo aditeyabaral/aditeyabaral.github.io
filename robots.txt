@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://aditeyabaral.github.io//sitemap.xml
+Sitemap: https://aditeyabaral.github.io/sitemap.xml
