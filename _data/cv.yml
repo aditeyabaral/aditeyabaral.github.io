@@ -3,95 +3,67 @@
   contents:
     - name: Full Name
       value: Aditeya Baral
-    - name: Date of Birth
-      value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: English, Hindi, Bengali
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.Tech in Computer Science and Engineering, specialization in Machine Learning & Data Science
+      institution: PES University, Bangalore, India
+      year: 2018-2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Awarded a specialization in Machine Learning and Data Science.
+        - Worked as an Undergraduate Researcher at the Center for Cloud Computing & Big Data, advised by Dr. KV Subramanium.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Big Data Analytics Engineer
+      institution: Cisco Systems, India
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developing and maintaining the Webex Media Quality Analytics Services to process streaming data from meetings.
+        - Computing, analysing and visualizing real-time metrics using statistical modelling techniques.
+
+    - title: Big Data Analytics Engineer Intern
+      institution: Cisco Systems, India
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Analysed streaming data from Webex VideoMesh Analytics Engine and visualized metrics.
+        - Built customer-facing applications and supported the development and testing of Webex Developer APIs.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Applied Scientist Research Intern
+      institution: Intel, India
+      year: 2021-2022
       description:
+        - Explored novel self-attention based Few-Shot Learning techniques to reduce catastrophic forgetting.
+        - Focused on road object detection for autonomous driving in unconstrained environments like India.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Undergraduate Researcher
+      institution: Center for Cloud Computing & Big Data, PES University, India
+      year: 2020
+      description: Explored ways to reduce tail latency in latency-critical applications across language and vision.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - title: 'Ranked #1 regionally and Top 20 Internationally at the Cisco Webex Hackathon for Cisco Employees.'
+          contents:
+            - My work on a conversational language representation model displayed significant improvement in contextual information retrieval.
+            - It has been added to the feature pipeline of the Webex Assistant.
+    - year: 2022
       items: 
-        - Max Planck Medal
+        - Awarded the Research Contribution Award by PES University for my work in the field of Machine Learning.
+        - 3x Scholarship Recipient for academic excellence at PES University.
 
-- title: Academic Interests
-  type: nested_list
+- title: Services and Recognitions
+  type: time_table
   contents:
-    - title: Topic 1.
+    - year: 2021
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Appointed a Teaching Assistant for the Big Data course at the Department of Computer Science, PES University.
+    
