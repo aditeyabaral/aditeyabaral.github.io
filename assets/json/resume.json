@@ -1,37 +1,47 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Aditeya Baral",
+    "label": "AI Researcher",
+    "image": "prof_pic.jpg",
+    "email": "aditeya.baral@gmail.com",
+    "url": "https://aditeyabaral.github.io/",
+    "summary": "AI Researcher with a focus on Deep Learning and Natural Language Processing",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "city": "Bangalore",
+      "countryCode": "IN"
+    }
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Cisco Systems",
+      "position": "Software Engineer",
+      "startDate": "2022-08-10",
+      "summary": "I work in the Media Quality Analytics team as a Big Data Analytics Engineer for Cisco Webex to compute real-time metrics from video and audio streams from meetings",
       "highlights": [
-        "Relativity"
+        "Placed #1 Regionally and Top-20 Internationally at the Annual Cisco Webex Hackathon",
+        "Proposed a Federated Learning based approach to learn representations of users, topics and entities from conversational text and metadata"
+      ]
+    },
+    {
+      "name": "Cisco Systems",
+      "position": "Software Engineer Intern",
+      "startDate": "2022-01-01",
+      "endDate": "2022-07-01",
+      "summary": "I work in the VideoMesh Analytics & API team as a Big Data Analytics Engineer for Cisco Webex to compute real-time metrics from video and audio streams from meetings",
+      "highlights": [
+        "Migrated streaming pipelines from Apache Spark to Apache Flink to reduce latency and improve performance",
+        "Developed a customer-facing dashboard using Webex Developer APIs for customers to monitor their data"
+      ]
+    },
+    {
+      "name": "Intel Corporation",
+      "position": "Deep Learning Research Intern",
+      "startDate": "2022-01-01",
+      "summary": "I work in the Media Quality Analytics team as a Big Data Analytics Engineer for Cisco Webex to compute real-time metrics from video and audio streams from meetings",
+      "highlights": [
+        "Placed #1 Regionally and Top-20 Internationally at the Annual Cisco Webex Hackathon",
+        "Proposed a Federated Learning based approach to learn representations of users, topics and entities from conversational text and metadata",
+        "Developed a customer-facing dashboard using Webex Developer APIs for customers to monitor their data"
       ]
     }
   ],
