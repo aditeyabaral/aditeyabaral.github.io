@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started working as an `Undergraduate Research Intern` at the `Center for Cloud Computing & Big Data, PES University`. I was advised by [Dr. KV Subramanium](https://www.linkedin.com/in/kalsubra/) and worked on [`TailBench`](http://tailbench.csail.mit.edu/), a benchmarking suite to analyze the tail latencies of various applications across language and vision.
+Started working as an `Undergraduate Researcher` at the `Center for Cloud Computing & Big Data, PES University`. I was advised by [Dr. KV Subramanium](https://www.linkedin.com/in/kalsubra/) and worked on [`TailBench`](http://tailbench.csail.mit.edu/), a benchmarking suite to analyze the tail latencies of various applications across language and vision.
