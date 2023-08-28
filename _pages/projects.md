@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /research/
-description: A growing collection my projects.
+description: A growing collection my projects. Coming Soon!
 nav: true
 nav_order: 2
 display_categories: [research, applied]
