@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I started my 6-month Spring internship at Cisco! I worked on the VideoMesh Analytics & API team at Cisco Webex to develop the analytics pipeline and build customer-facing applications for their APIs.
+Started interning as a `Big Data Analytics Intern` at `Cisco Webex` as part of the `VideoMesh Analytics & API Team` and developed the analytics pipeline and built customer-facing applications for their APIs.

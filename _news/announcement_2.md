@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I published my first paper - [Analysis of Kepler Objects of Interest using Machine Learning for Exoplanet Identification](https://ieeexplore.ieee.org/document/9498407) at IEEE International Conference on Intelligent Technologies (CONIT)!
+Published ["Analysis of Kepler Objects of Interest using Machine Learning for Exoplanet Identification"](https://ieeexplore.ieee.org/document/9498407) at `IEEE International Conference on Intelligent Technologies (CONIT) 2021`.

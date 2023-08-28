@@ -19,11 +19,13 @@ social: true  # includes social icons at the bottom of the page
 
 Hi there! 👋 
 
-I am a Big Data Analytics Engineer at Cisco Webex. I recently completed my Bachelors in Computer Science from PES University, India and graduated with a specialisation in Machine Learning and Data Science. 
+I am a `Big Data Analytics Engineer` at `Cisco Webex`. I recently completed my Bachelors in Computer Science from `PES University, India` and graduated with a specialisation in Machine Learning and Data Science. 
 
-My primary interests lie in theoretical machine learning and NLP research. I specifically work extensively in the field of transfer learning and language representation models, with a focus on creating domain adaptive architectures that aid natural language understanding across a variety of tasks. I have previously worked as a research intern at Intel Research India as well as the Center for Cloud Computing & Big Data, PES University. You can read about my current and my published research on my [publications](/publications/) page.
+My primary interests lie in `theoretical machine learning and NLP research`. I specifically work extensively in the field of `transfer learning` and `language representation models`, with a focus on creating domain-adaptive but task-agnostic architectures that aid `natural language understanding` across different tasks. I previously worked as an `Applied Research Scientist Intern` at [Intel](https://www.intel.in/content/www/in/en/homepage.html) Research India, where I was advised by [Dr. Anbumani Subramanian](https://sites.google.com/view/anbumani/) and [Anay Majee](http://anaymajee.me/) to develop novel self-attentive learning models for vision tasks aimed at autonomous driving in unconstrained traffic environments like India.
 
-When I am not occupied with work, I engage in mobile photography, travelling, football and movies. 
+Earlier, I worked as an `Undergraduate Research Intern` at the `Center for Cloud Computing & Big Data, PES University`, where I was advised by [Dr. KV Subramanium](https://www.linkedin.com/in/kalsubra/) and worked on analysing tail latencies for latency-critical tasks ranging from language to vision.
+
+You can read about my current and my published research on my [publications](/publications/) and [projects](/projects/) pages. I also write about relevant ideas and topics on my [blog](/blog/).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

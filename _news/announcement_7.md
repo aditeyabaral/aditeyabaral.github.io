@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I started working full-time as a Big Data Analytics Engineer at Cisco Webex as part of the Media Quality Analytics Team! I will be developing streaming pipelines to compute real-time metrics from meetings.
+Started working full-time as a `Big Data Analytics Engineer` at `Cisco Webex` as part of the `Media Quality Analytics Team` and worked on developing streaming pipelines to compute real-time metrics from meetings.
