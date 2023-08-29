@@ -33,7 +33,7 @@
         - Analysed streaming data from Webex VideoMesh Analytics Engine and visualized metrics.
         - Built customer-facing applications and supported the development and testing of Webex Developer APIs.
 
-    - title: Applied Scientist Research Intern
+    - title: Applied Research Scientist Intern
       institution: Intel, India
       year: 2021-2022
       description:
@@ -45,6 +45,20 @@
       year: 2020
       description: Explored ways to reduce tail latency in latency-critical applications across language and vision.
 
+- title: Skills
+  type: time_table
+  contents:
+    - title: Languages
+      items: 
+        - Python, Scala, Java, SQL, R, Octave
+    - title: ML/Stats
+      items: 
+        - PyTorch, Tensorflow, pandas, NumPy, scikit-learn, seaborn, matplotlib
+    - title: Big Data
+      items: Hadoop, Kafka, Spark, Flink, Iceberg, ELK
+    - title: Tools
+      items: 
+        - Git, Docker, Grafana, PSQL, MongoDB, AWS, Linux
 
 - title: Honors and Awards
   type: time_table

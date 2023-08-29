@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a `Big Data Analytics Engineer` at `Cisco Webex`. I recently completed my Bachelors in Computer Science from `PES University, India` and graduated with a specialisation in Machine Learning and Data Science. 
 
-My primary interests lie in `theoretical machine learning and NLP research`. I specifically work extensively in the field of `transfer learning` and `language representation models`, with a focus on creating domain-adaptive but task-agnostic architectures that aid `natural language understanding`. 
+My primary interests lie in machine learning and NLP research. I work extensively in the field of `foundation models`, `transfer learning` and `language representation models`, with a focus on creating domain-adaptive but task-agnostic architectures that aid `natural language understanding`. 
 
 I previously worked as an `Applied Research Scientist Intern` at [Intel](https://www.intel.in/content/www/in/en/homepage.html) Research India, where I was advised by [Dr. Anbumani Subramanian](https://sites.google.com/view/anbumani/) and [Anay Majee](http://anaymajee.me/) to develop novel `self-attentive learning models for vision` tasks aimed at autonomous driving in unconstrained traffic environments like India. Earlier, I worked as an `Undergraduate Researcher` at the [Center for Cloud Computing & Big Data](https://research.pes.edu/cloud-computing-big-data/), where I was advised by [Dr. KV Subramanium](https://www.linkedin.com/in/kalsubra/) and worked on analysing tail latencies for latency-critical tasks ranging from language to vision.
 
