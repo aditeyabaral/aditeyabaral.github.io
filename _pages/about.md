@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a `Big Data Analytics Engineer` at `Cisco Webex`. I recently completed my Bachelors in Computer Science from `PES University, India` and graduated with a specialisation in Machine Learning and Data Science. 
+I am a `Big Data Analytics Engineer` at [Cisco Webex](https://www.webex.com/). I recently completed my Bachelors in Computer Science from `PES University` and graduated with a specialisation in Machine Learning and Data Science. 
 
 My primary interests lie in machine learning and NLP research. I work extensively in the field of `foundation models`, `transfer learning` and `language representation models`, with a focus on creating domain-adaptive but task-agnostic architectures that aid `natural language understanding`. 
 
