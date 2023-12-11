@@ -14,7 +14,7 @@
       year: 2018-2022
       description:
         - Awarded a specialization in Machine Learning and Data Science.
-        - Worked as an Undergraduate Researcher at the Center for Cloud Computing & Big Data, advised by Dr. KV Subramanium.
+        - Worked as an Applied Research Intern at the Center for Cloud Computing & Big Data, advised by Dr. KV Subramanium.
 
 - title: Research Experience
   type: time_table
@@ -36,7 +36,7 @@
         - Investigated and designed novel attention mechanisms to learn inter-object relationships using PyTorch.
         - Outperformed all existing approaches at the time by 0.2 mAP and 3 mAP on base and novel classes on the Few-Shot India Driving Dataset, a benchmark for FSOD.
 
-    - title: Undergraduate Researcher
+    - title: Applied Research Intern
       institution: Center for Cloud Computing & Big Data, PES University, India
       year: 2020
       description: 
