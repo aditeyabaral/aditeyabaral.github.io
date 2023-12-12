@@ -20,13 +20,14 @@
   type: time_table
   contents:
 
-    - title: Research Collaborator
+    - title: Applied Research Collaborator
       institution: Cisco Systems, India
       year: 2022
       description:
+        - Instruction fine-tuning LLMs like Mistral and Llama-2 on-prem using conversational modelling techniques to enable secure and cost-effective AI solutions for engineers and customers.
         - Led the initiative to build a novel pre-training strategy for learning representations from conversational data using PyTorch and HuggingFace.
-        - Improved contextual information retrieval, search ranking, recommendations, and topic modelling across conversations with minimal overhead latency and high scalability.
-        - Assisted in the integration of the OpenAI GPT-3.5 LLM API with the Webex Assistant to add summarisation capabilities to message threads and meeting transcripts.
+        - Developed the Webex Contextual Search Engine and improved information retrieval, searching, recommendations and topic modelling with minimal overhead latency.
+        - Assisted in integrating the OpenAI GPT-3.5 LLM API with the Webex Assistant to add summarisation capabilities to message threads and meeting transcripts.
 
     - title: Applied Research Scientist Intern
       institution: Intel, India
