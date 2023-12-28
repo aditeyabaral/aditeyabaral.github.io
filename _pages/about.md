@@ -17,11 +17,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a `Big Data Analytics Engineer` and `Research Collaborator` at [Cisco Webex](https://www.webex.com/). I am currently building on-prem `foundational LLMs` with various conversational language modelling and representation learning techniques to improve message-level interactions with the [Webex Assistant](https://www.webex.com/ai-assistant.html).
+I am a `Big Data Analytics Engineer` and `Research Collaborator` at [Cisco Webex](https://www.webex.com/). I am currently building `on-prem LLMs` with various conversational modelling techniques to integrate AI-assisted features with the [Webex Assistant](https://www.webex.com/ai-assistant.html).
 
-My primary research interests lie in `language and vision understanding`. I work extensively in the field of `foundation models`, `transfer learning` and `representation models`, with a focus on creating task-agnostic multi-modal architectures to advance understanding and reasoning capabilities in machines. 
+My primary research interests lie in `language and vision understanding`. I work extensively in the field of `transfer learning`, `foundation models` and `representation learning`, with a focus on creating task-agnostic multi-modal architectures to advance understanding and reasoning capabilities in machines. 
 
-I previously worked as an `Applied Research Scientist Intern` at [Intel](https://www.intel.in/content/www/in/en/homepage.html) Research India, where I was advised by [Dr. Anbumani Subramanian](https://sites.google.com/view/anbumani/) and [Anay Majee](http://anaymajee.me/) to develop novel `attention mechanisms` for vision, aimed at autonomous driving in unconstrained traffic environments like India. 
+I previously worked as an `Applied Research Scientist Intern` at [Intel](https://www.intel.in/content/www/in/en/homepage.html) Research India, where I was advised by [Dr. Anbumani Subramanian](https://sites.google.com/view/anbumani/) and [Anay Majee](http://anaymajee.me/) to develop various `attention mechanisms` for vision, aimed at autonomous driving in unconstrained traffic environments like India. 
 
 Even earlier, I worked as an `Applied Research Intern` at the [Center for Cloud Computing & Big Data](https://research.pes.edu/cloud-computing-big-data/) during my undergraduate studies at [PES University](https://pes.edu/), where I was advised by [Dr. KV Subramanium](https://www.linkedin.com/in/kalsubra/) and worked on analysing tail latencies for latency-critical tasks ranging from language to vision.
 
