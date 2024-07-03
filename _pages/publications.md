@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: My publications in peer-reviewed conferences.
+description: My internal whitepapers and publications in peer-reviewed conferences.
 nav: true
 nav_order: 2
 ---

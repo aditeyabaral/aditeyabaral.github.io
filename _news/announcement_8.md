@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started working as an `Applied Research Collaborator` at `Cisco Webex` as part of the `Webex Message AI` research team.
+Started working as an `Applied Researcher` at `Cisco Webex` as part of the `Webex Message AI` research team.

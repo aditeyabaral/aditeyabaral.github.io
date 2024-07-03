@@ -9,25 +9,32 @@
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor of Technology in Computer Science & Engineering
-      institution: PES University, Bangalore, India
-      year: 2018-2022
+    - title: Masters in Computer Science
+      institution: New York University, Courant Institute of Mathematical Sciences
+      year: 2024 - 2026
       description:
-        - Awarded a specialization in Machine Learning and Data Science.
-        - Worked as an Applied Research Intern at the Center for Cloud Computing & Big Data, advised by Dr. KV Subramanium.
+        - Specializing in Artificial Intelligence.
+
+    - title: Bachelor of Technology in Computer Science & Engineering
+      institution: PES University, Bengaluru, India
+      year: 2018 - 2022
+      description:
+        - Awarded a specialization in Machine Intelligence and Data Science.
+        - Received the Undergraduate Researcher Award for my work in the field of Machine Learning.
+        - Worked as a Research Assistant at the Center for Cloud Computing & Big Data, advised by Dr. KV Subramanium.
 
 - title: Research Experience
   type: time_table
   contents:
 
-    - title: Applied Research Collaborator
+    - title: Applied Researcher
       institution: Cisco Systems, India
-      year: July 2022 -
+      year: Jul '22 - Jul '24
       description:
-        - Instruction fine-tuning LLMs like Mistral and Llama-2 on-prem to enable secure and cost-effective AI solutions such as translation and RAG for engineers and customers.
-        - Led the initiative to build a novel pre-training strategy for conversational data using PyTorch and HuggingFace and integrated it with Webex.
-        - Developed the Webex Contextual Search Engine and improved information retrieval, searching, recommendations and topic modelling with minimal overhead latency.
-        - Assisted in integrating the OpenAI GPT-3.5 LLM API with the Webex Assistant to add summarisation capabilities to message threads and meeting transcripts.
+        - Instruction fine-tuned LLMs like Mistral and Llama-2 on-prem to enable secure and cost-effective AI solutions such as translation and RAG for engineers and customers.
+        - Led the initiative to build a novel pre-training algorithm for conversational data using PyTorch and HuggingFace.
+        - Developed the Webex Contextual Search engine and improved searching, recommendations and topic modelling with minimal overhead latency.
+        - Integrated OpenAI GPT-3.5 APIs and on-prem LLMs with the Webex Assistant to add summarisation and action-item extraction to message threads and meeting transcripts.
 
     - title: Applied Research Scientist Intern
       institution: Intel, India
@@ -37,11 +44,11 @@
         - Investigated and designed novel attention mechanisms to learn inter-object relationships using PyTorch.
         - Outperformed all existing approaches at the time by 0.2 mAP and 3 mAP on base and novel classes on the Few-Shot India Driving Dataset, a benchmark for FSOD.
 
-    - title: Applied Research Intern
+    - title: Research Assistant
       institution: Center for Cloud Computing & Big Data, PES University, India
       year: May - July 2020
       description: 
-        - Compiled and used TailBench for simulation of application loads to monitor performance and analyse results.
+        - Compiled and used TailBench to simulate and profile application loads, monitor performance, and analyse results.
         - Explored ways to reduce tail latencies in latency-critical applications such as translation and image recognition.
 
 - title: Work Experience
@@ -50,23 +57,24 @@
 
     - title: "Big Data Analytics Engineer – Webex Media Quality Analytics"
       institution: Cisco Systems, India
-      year: July 2022 -
+      year: Jul '22 - Jul '24
       description:
-        - Develop and maintain streaming jobs using Scala and Flink for Media Quality Analytics Services to compute and process real-time data from Webex Calls and Meetings.
-        - Optimise and enhance Webex Logs & Analytics dashboards using Iceberg and Pinot to set up alerts and visualise real-time metrics and KPIs for clients and customers.
+        - Developed and deployed streaming jobs in Scala and Flink to compute real-time metrics from Calls and Meetings.
+        - Led the development of real-time auditing pipelines using Kafka and Python to ensure data consistency between streaming jobs and downstream data stores like Iceberg and Pinot.
+        - Built statistical models and dashboards on Grafana and Kibana to set up alerts and KPIs for clients and customers.
     
     - title: "Big Data Analytics Engineering Intern - Webex VideoMesh Analytics and APIs"
       institution: Cisco Systems, India
       year: Jan - July 2022
       description:
-        - Contributed to the migration of the VideoMesh Meetings Analytics Engine from Java to Scala and Spark to Flink to significantly reduce processing time and improve real-time report generation.
-        - Built customer-facing applications using Python and Flask and supported the development and global roll-out of Webex VideoMesh Developer APIs.
+        - Migrated the Meetings Analytics Engine from Java and Spark to Scala and Flink to significantly improve real-time report generation by over 30%.
+        - Built VideoMesh Developer APIs using Java and supported their global roll-out with customer-facing applications.
 
 - title: Skills
   type: time_table
   contents:
     - title: Languages
-      items: Python, Scala, Java, C, R, SQL, Octave
+      items: Python, Scala, Java, C, R, Octave, SQL, LaTeX
     - title: ML/Stats
       items: PyTorch, Tensorflow, HuggingFace, NLTK, pandas, NumPy, scikit-learn, seaborn, matplotlib
     - title: Artificial Intelligence Techniques
@@ -81,45 +89,46 @@
   contents:
     - year: 2024
       items:
-        - title: 'Second Place out of 25+ teams at Webex Analytics Datathon 2024'
+        - title: 'Second Place out of 20+ teams at Webex Analytics Datathon 2024'
           contents:
             - Containerised and deployed a self-sufficient, on-prem and quantised LLM-RAG pipeline to assist engineers with engineering queries and incident resolution.  
     - year: 2023
       items:
-        - title: 'Ranked #1 Internationally out of 250+ teams at the Webex IDEA Hackathon 2023'
+        - title: 'Ranked #1 Internationally out of 300+ teams at the Webex IDEA Hackathon 2023'
           contents:
             - Integrated OpenAI LLM APIs with the Webex Assistant to enable summarisation of message threads, media and transcripts
             - Developed thread-related user actions like searching, grouping and sorting across Webex.
             - Assisted in globally rolling out these features worldwide.
         - title: 'Ranked #1 regionally and Top 20 Internationally out of 250+ teams at the Webex Playtime Hackathon 2023'
           contents:
-            - Developed the Webex Contextual Search Engine using novel conversational representation learning techniques and displayed significant improvement in searching, ranking and recommendations.
+            - Developed the Webex Contextual Search engine using novel conversational representation learning techniques and displayed significant improvement in searching, ranking and recommendations.
     - year: 2022
       items: 
-        - Awarded the Research Contribution Award by PES University for my work in the field of Machine Learning.
+        - Awarded the Undergraduate Researcher Award by PES University for my work in the field of Machine Learning.
         - 3x Scholarship Recipient and 3x Distinction Certificate Awardee for academic excellence at PES University.
     - year: 2017
       items:
-        - title: 'National newspaper coverage for building a Bangalore Garbage Collection and Scheduling Android App'
+        - title: 'National newspaper coverage for proposing the currently implemented model to track garbage collection in Bengaluru.'
           contents:
-            - Received extensive coverage and recognition for developing an Android app to track and schedule garbage collection in Bangalore.
+            - Received extensive coverage and recognition for developing an Android app to track and schedule garbage collection in Bengaluru.
             - Currently implemented model was based on our designs and proposals made to the BBMP.
             - 'The Hindu: https://www.thehindu.com/news/cities/bangalore/waste-disposal-all-garbage-trucks-to-have-gps-devices/article29906398.ece'
             - 'India Today: https://www.indiatoday.in/cities/bengaluru/story/app-bangaloreans-track-garbage-vehicles-bbmp-gps-fails-1909736-2022-02-07'
             - 'The Times of India: https://bangaloremirror.indiatimes.com/bangalore/others/these-12th-graders-want-app-solutely-no-garbage/articleshow/57619336.cms'
 
 
-- title: Services and Recognitions
+- title: Services and Volunteering
   type: time_table
   contents:
     - year: 2023
       items: 
         - title: Speaker, Guest Lecture on - Building Foundation Models using Transformers
           contents:
-            - Delivered a guest lecture to undergraduate students on the advancements in natural language understanding and representation learning techniques and highlighted the applications of foundation models.
+            - Delivered a guest lecture to undergraduate students on the advancements in representation learning techniques for language and highlighted the importance of interdisciplinary research.
+
     - year: 2021
       items: 
         - Appointed a Teaching Assistant for the Big Data course at the Department of Computer Science, PES University.
-        - Setup automated grading of submissions, designed and reviewed coursework, assignments and project deliverables, and conducted hands-on sessions on Hadoop and Spark for a class of 600+ enrolled students.
+        - Setup automated grading of submissions, designed and graded coursework, assignments and project deliverables, and delivered hands-on sessions on Hadoop and Spark for a class of 600+ enrolled students.
 
 
