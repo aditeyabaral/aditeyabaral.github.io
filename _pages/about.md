@@ -6,8 +6,7 @@ subtitle: MSCS @ NYU CIMS | Language and Vision Understanding Researcher
 
 profile:
   align: right
-  image: IMG-20240830-WA0103.jpg
-  # image: PXL_20240830_224417577.PORTRAIT.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>New York, NY</p>
@@ -21,7 +20,7 @@ I am a Masters in Computer Science student at `New York University's Courant Ins
 
 My primary research interests lie in language and vision understanding. I work extensively in the field of `transfer learning`, `foundation models` and `representation learning`, with a focus on building task-agnostic multi-modal approaches to advance understanding and reasoning capabilities in machines. 
 
-Previously, I was an `Applied Researcher` at [Cisco Webex](https://www.webex.com/) where I fine-tuned `on-prem LLMs` to integrate secure and cost-effective AI solutions with the [Webex AI Assistant](https://www.webex.com/ai-assistant.html). I have also worked as an `Applied Research Scientist Intern` at [Intel](https://www.intel.in/content/www/in/en/homepage.html) Research India, where I was advised by [Dr. Anbumani Subramanian](https://sites.google.com/view/anbumani/) and [Anay Majee](http://anaymajee.me/) to develop `attention mechanisms` for vision, aimed at autonomous driving in unconstrained and heterogenous traffic environments like India. 
+Previously, I was an `Applied Researcher` at [Cisco Webex AI](https://www.webex.ai/) where I fine-tuned `on-prem LLMs` to integrate secure and cost-effective AI solutions with the [Webex AI Assistant](https://www.webex.com/ai-assistant.html). I have also worked as an `Applied Research Scientist Intern` at [Intel](https://www.intel.in/content/www/in/en/homepage.html) Research India, where I was advised by [Dr. Anbumani Subramanian](https://sites.google.com/view/anbumani/) and [Anay Majee](http://anaymajee.me/) to develop `attention mechanisms` for vision, aimed at autonomous driving in unconstrained and heterogenous traffic environments like India. 
 
 Even earlier, I worked as a `Research Assistant` at the [Center for Cloud Computing & Big Data](https://research.pes.edu/cloud-computing-big-data/) during my undergraduate studies at [PES University](https://pes.edu/), where I was advised by [Dr. KV Subramanium](https://www.linkedin.com/in/kalsubra/) and worked on analysing tail latencies for latency-critical applications ranging from language to vision.
 
