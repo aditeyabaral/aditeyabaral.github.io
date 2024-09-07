@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-01-01 07:59:00-0400
+date: 2021-12-12 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Started interning as a `Big Data Analytics Engineering Intern` at `Cisco Webex` as part of the `VideoMesh Analytics & API` team.
+Paper titled "Information Maximization to Overcome Catastrophic Forgetting in Few-Shot Object Detection" published internally at `Intel (VSG) Research`.

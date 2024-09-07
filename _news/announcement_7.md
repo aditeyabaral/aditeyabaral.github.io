@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-07-10 07:59:00-0400
+date: 2022-03-21 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Started working full-time as a `Big Data Analytics Engineer` at `Cisco Webex` as part of the `Media Quality Analytics` team.
+Paper titled "CalBERT – Code-Mixed Adaptive Language Representations Using BERT" accepted at `AAAI 2022`, MAKE Symposium.

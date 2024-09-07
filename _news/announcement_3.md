@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Published "Analysis of Kepler Objects of Interest using Machine Learning for Exoplanet Identification" at `IEEE CONIT 2021`.
+Paper titled "Analysis of Kepler Objects of Interest using Machine Learning for Exoplanet Identification" accepted at `IEEE CONIT 2021`.

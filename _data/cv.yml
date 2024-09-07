@@ -33,16 +33,16 @@
       description:
         - Instruction fine-tuned LLMs like Mistral and Llama-2 on-prem to enable secure and cost-effective AI solutions such as translation and RAG for engineers and customers.
         - Led the initiative to build a novel pre-training algorithm for conversational data using PyTorch and HuggingFace.
-        - Developed the Webex Contextual Search engine and improved searching, recommendations and topic modelling with minimal overhead latency.
-        - Integrated OpenAI GPT-3.5 APIs and on-prem LLMs with the Webex Assistant to add summarisation and action-item extraction to message threads and meeting transcripts.
+        - Developed the Webex Contextual Search engine and improved searching, ranking, recommendations and topic modelling with minimal overhead latency.
+        - Integrated OpenAI APIs and on-prem LLMs with the Webex AI Assistant to add auto-replies, summarisation, querying and action-item extraction to message threads and meeting transcripts.
 
     - title: Applied Research Scientist Intern
       institution: Intel, India
       year: Aug - Dec 2021
       description:
-        - Explored Few-Shot Learning Object Detection (FSOD) techniques to reduce catastrophic forgetting in constrained driving environments.
-        - Investigated and designed novel attention mechanisms to learn inter-object relationships using PyTorch.
-        - Outperformed all existing approaches at the time by 0.2 mAP and 3 mAP on base and novel classes on the Few-Shot India Driving Dataset, a benchmark for FSOD.
+        - xplored Few-Shot Learning Object Detection (FSOD) techniques to reduce catastrophic forgetting inconstrained and heterogenous driving environments.
+        - Investigated and designed novel representation learning and attention mechanisms to learn inter/intra-object relationships using PyTorch.
+        - Outperformed existing approaches at the time on base and novel classes on the Few-Shot India Driving Dataset, a benchmark for FSOD.
 
     - title: Research Assistant
       institution: Center for Cloud Computing & Big Data, PES University, India
@@ -60,29 +60,29 @@
       year: Jul '22 - Jul '24
       description:
         - Developed and deployed streaming jobs in Scala and Flink to compute real-time metrics from Calls and Meetings.
+        - Applied statistical modelling techniques to investigate and report media quality insights to downstream consumers.
         - Led the development of real-time auditing pipelines using Kafka and Python to ensure data consistency between streaming jobs and downstream data stores like Iceberg and Pinot.
-        - Built statistical models and dashboards on Grafana and Kibana to set up alerts and KPIs for clients and customers.
-    
+        - Built graphs and dashboards on the Webex Media Quality Analytics Dashboard using Grafana and Kibana to set up alerts and KPIs for clients and customers.
     - title: "Big Data Analytics Engineering Intern - Webex VideoMesh Analytics and APIs"
       institution: Cisco Systems, India
       year: Jan - July 2022
       description:
         - Migrated the Meetings Analytics Engine from Java and Spark to Scala and Flink to significantly improve real-time report generation by over 30%.
-        - Built VideoMesh Developer APIs using Java and supported their global roll-out with customer-facing applications.
+        - Built VideoMesh Developer APIs using Java and globally rolled them out with customer-facing applications.
 
 - title: Skills
   type: time_table
   contents:
     - title: Languages
-      items: Python, Scala, Java, C, R, Octave, SQL, LaTeX
+      items: Python, Scala, Java, C, R, Groovy, Octave, SQL, LaTeX
     - title: ML/Stats
       items: PyTorch, Tensorflow, HuggingFace, NLTK, pandas, NumPy, scikit-learn, seaborn, matplotlib
     - title: Artificial Intelligence Techniques
       items: Representation Learning, Transfer Learning, Few-Shot Learning, Language Models, Natural Language Understanding
-    - title: Big Data
-      items: Hadoop, Kafka, Spark, Flink, Iceberg, Pinot, ELK
+    - title: Big Data/Cloud
+      items: Hadoop, Kafka, Zookeeper, Spark, Flink, Iceberg, Pinot, ELK
     - title: Frameworks/Tools
-      items: Git, Docker, Flask, Grafana, PSQL, MongoDB, AWS, Linux Systems
+      items: Git, Docker, Flask, Grafana, PSQL, MongoDB, AWS, Linux
 
 - title: Honors and Awards
   type: time_table

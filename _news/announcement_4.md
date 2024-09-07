@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Published "MAPLE – MAsking words to generate blackout Poetry using sequence-to-sequence LEarning" at `ACL ICNLSP 2021`.
+Paper titled "MAPLE – MAsking words to generate blackout Poetry using sequence-to-sequence LEarning" accepted at `ACL ICNLSP 2021`.
