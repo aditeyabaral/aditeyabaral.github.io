@@ -1,115 +1,146 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{chatbert-baral-et-al-2021,
+  abbr      = {Webex AI},
+  author    = {Aditeya Baral and
+               Cisco Systems},
+  title     = {ChatBERT - Multi-task approach to Pre-Training for Structured Conversations},
+  booktitle = {Work done and published as part of Cisco Webex AI Research},
+  year      = {2023},
+  selected = {false},
+  bibtex_show = {true},
+  dimensions = {true},
+  preview   = {webex.png},
+  html = {https://www.webex.ai/?socialshare=VideoOverlayPlayer},
+  abstract = {The emergence of collaboration platforms in recent times has enabled users to communicate effortlessly across the world. 
+  Existing conversational modelling techniques do not learn accurate representations of structured conversations since they are primarily 
+  aimed at causal text generation in a one-to-one setting. Structured conversations, on the other hand, involve multiple turns and store 
+  metadata such as authorship, timestamps, membership, and other attributes. Causal language models only attend to previous tokens while generating 
+  the next token, which makes them fail at representing complex bidirectional relationships between concepts, authors and turns in 
+  structured conversations, which are essential for lanugage understanding and predictive tasks. In this paper, 
+  we propose a novel pre-training strategy for multi-turn dialogue modelling that leverages both conversational data and metadata. Our 
+  approach combines multiple supervised and unsupervised objectives to learn task and domain-agnostic representations to capture both 
+  semantics and structure of conversations. Experiments with our approach show that our language models can learn hierarchical relationships 
+  between dialogues, concepts and authors in conversations, which allow it to outperform existing conversational models on multiple 
+  downstream tasks.},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{calbert-baral-et-al-2022,
+  abbr      = {AAAI-MAKE 2022},
+  author    = {Aditeya Baral and
+               Aronya Baksy and
+               Ansh Sarkar and
+               Deeksha D and
+               Ashwini M. Joshi},
+  editor    = {Andreas Martin and
+               Knut Hinkelmann and
+               Hans{-}Georg Fill and
+               Aurona Gerber and
+               Doug Lenat and
+               Reinhard Stolle and
+               Frank van Harmelen},
+  title     = {CalBERT - Code-Mixed Adaptive Language Representations Using {BERT}},
+  booktitle = {Proceedings of the {AAAI} 2022 Spring Symposium on Machine Learning
+               and Knowledge Engineering for Hybrid Intelligence {(AAAI-MAKE} 2022),
+               Stanford University, Palo Alto, California, USA, March 21-23, 2022},
+  series    = {{CEUR} Workshop Proceedings},
+  volume    = {3121},
+  publisher = {CEUR-WS.org},
+  year      = {2022},
+  url       = {http://ceur-ws.org/Vol-3121/short3.pdf},
+  html       = {http://ceur-ws.org/Vol-3121},
+  pdf       = {http://ceur-ws.org/Vol-3121/short3.pdf},
+  preview   = {calbert.png},
+  timestamp = {Fri, 22 Apr 2022 14:55:37 +0200},
+  selected = {true},
+  bibtex_show = {true},
+  code = {https://github.com/aditeyabaral/calbert},
+  dimensions = {true},
+  google_scholar_id = {qjMakFHDy7sC},
+  abstract = {A code-mixed language is a type of language that involves the combination of two or more language varieties in its script or speech. Analysis of code-text is difficult to tackle because the language present is not
+consistent and does not work with existing monolingual approaches. We propose a novel approach to
+improve performance in Transformers by introducing an additional step called "Siamese Pre-Training",
+which allows pre-trained monolingual Transformers to adapt language representations for code-mixed
+languages with a few examples of code-mixed data. The proposed architectures beat the state of the
+art F1-score on the Sentiment Analysis for Indian Languages (SAIL) dataset, with the highest possible improvement being 5.1 points, while also achieving the state-of-the-art accuracy on the IndicGLUE
+  Product Reviews dataset by beating the benchmark by 0.4 points.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{imnet-baral-et-al-2021,
+  abbr      = {Intel Research},
+  author    = {Aditeya Baral and
+               Anay Majee and
+               Anbumani Subramanian},
+  title     = {Information Maximization to Overcome Catastrophic Forgetting in Few-Shot Object Detection},
+  booktitle = {Work done and published as part of Intel (VSG) Research},
+  year      = {2021},
+  pdf       = {Information_Maximization_to_Overcome_Catastrophic_Forgetting_in_Few_Shot_Object_Detection.pdf},
+  preview   = {imnet.png},
+  selected = {true},
+  bibtex_show = {true},
+  dimensions = {true},
+  abstract = {Few-shot object detection encompasses the tasks of localizing and classifying objects in an image provided a limited number of 
+  training examples. Recent techniques in this domain suffer from confusion between object classes and demonstrate a tendency to forget the 
+  knowledge of already learnt classes, also known as catastrophic forgetting.Our work overcomes the impedance of catastrophic forgetting through 
+  an information maximization approach - Information Maximization Network (IMNet) that focuses on learning 
+  more descriptive feature representations without overfitting on irrelevant ones while retaining the relevant features from already learnt 
+  classes in an input image. Our introduced Cross-Entropy Similarity Loss decreases class confusion by adjusting the embedding space to allow 
+  homogeneous classes to have feature representations close to one another and heterogeneous classes to have a high separation between them. 
+  We conduct our experiments on the India Driving Dataset (IDD), which demonstrates a real-world setting alongside large class imbalance. 
+  Our IMNet architecture outperforms existing meta-learning approaches by 0.2 mAP on the base classes and up to 3 mAP on novel classes of IDD.},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{maple-baral-etal-2021,
+    abbr = {ICNLSP 2021},
+    title = "{MAPLE} {--} {MA}sking words to generate blackout Poetry using sequence-to-sequence {LE}arning",
+    author = "Baral, Aditeya  and
+      Jain, Himanshu  and
+      D, Deeksha  and
+      R, Dr. Mamatha H",
+    booktitle = "Proceedings of the 4th International Conference on Natural Language and Speech Processing (ICNLSP 2021)",
+    month = {11},
+    year = "2021",
+    address = "Trento, Italy",
+    publisher = "Association for Computational Linguistics",
+    html = "https://aclanthology.org/2021.icnlsp-1.6",
+    pdf = "https://aclanthology.org/2021.icnlsp-1.6.pdf",
+    preview = "blackout_poetry.jpg",
+    pages = "47--54",
+    bibtex_show = {true},
+    code = {https://github.com/aditeyabaral/maple},
+    dimensions = {true},
+    google_scholar_id = {9yKSN-GCB0IC},
+    abstract = {Poetry has morphed rapidly over changing
+times with non-traditional forms stirring the
+creative minds of people today. One such type
+of poetry is blackout poetry. Blackout poetry
+is a form of poetry in which words in a passage are masked, except for a few which when
+combined together in order to convey some
+meaning. With the recent developments in
+Natural Language Processing aiming to simulate human creativity, we propose a novel approach to blackout poetry generation employing deep learning. We explore four different architectures, namely an encoder-decoder
+with Bidirectional Long Short-Term Memory (LSTM) and Attention, a Bidirectional
+LSTM Conditional Random Fields (LSTMCRF) architecture, Bidirectional Encoder Representations from Transformers (BERT) and
+Robustly Optimized BERT Pre-training Approach (RoBERTa). The first architecture employs abstractive summarization and the remaining employed sequence labelling to generate poetry. The Transformer based architectures prove to be the best working models, and
+were also able to pass a Turing Test as well.},
+    code = {https://github.com/aditeyabaral/maple}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@INPROCEEDINGS{kepler-bhamare-etal-2021,
+  abbr={IEEE CONIT 2021},
+  author={Bhamare, Ameya Rajendra and Baral, Aditeya and Agarwal, Saarthak},
+  booktitle={2021 International Conference on Intelligent Technologies (CONIT)}, 
+  title={Analysis of Kepler Objects of Interest using Machine Learning for Exoplanet Identification}, 
+  year={2021},
+  month={8},
+  pages={1-8},
+  preview = "kepler.jpg",
+  html = "https://ieeexplore.ieee.org/document/9498407",
+  pdf = "https://ieeexplore.ieee.org/iel7/9497779/9498265/09498407.pdf",
+  doi={10.1109/CONIT51480.2021.9498407},
+  bibtex_show = {true},
+  code = {https://github.com/aditeyabaral/kepler-exoplanet-analysis},
+  dimensions = {true},
+  google_scholar_id={u5HHmVD_uO8C},
+  abstract = {For several decades, planet identification has only been performed by astronomical experts and researchers with the help of specialized equipment. With the advent of computational methods and access to satellite data from space missions, this trend has changed. For instance, NASA’s Exoplanet Exploration program has provided us vast amounts of data on celestial objects to assist in space exploration. One such mission of interest is the Kepler mission. Over 4000 such transiting exoplanets have been identified since the mission commenced in 2007. It has provided us with an extensive database of discoveries that help in computing planet occurrence rates as a function of an object’s parameters such as the size, insolation flux, star type and orbital period. This information is catalogued in the Cumulative Kepler Object of Information dataset. Four basic models have been compared. Namely, Support Vector Machines, Random Forest Classifiers, AdaBoost and Deep Neural Networks. The AdaBoost classifier was selected as the optimum machine learning model and returned an F-1 score of 0.98.},
 }
