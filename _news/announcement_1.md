@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started working as a `Research Assistant` at the [Center for Cloud Computing & Big Data](https://research.pes.edu/cloud-computing-big-data/), PES University and was advised by [Dr. KV Subramanium](https://www.linkedin.com/in/kalsubra/).
+Started working as a `Research Assistant` at the [Center for Cloud Computing & Big Data](https://research.pes.edu/cloud-computing-big-data/) at PES University and was advised by Dr. [KV Subramanium](https://www.linkedin.com/in/kalsubra/).

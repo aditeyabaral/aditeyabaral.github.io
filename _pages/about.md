@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: MSCS @ NYU CIMS | Language and Vision Understanding Researcher
+subtitle: MSCS @ NYU CIMS | NLP @ NYU CILVR/Computation & Psycholinguistics Lab 
+# | Language Understanding and Interpretability
 
 profile:
   align: right
@@ -16,13 +17,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Masters in Computer Science student at `New York University's Courant Institute of Mathematical Sciences`.
+I am a Masters in Computer Science student at New York University's `Courant Institute of Mathematical Sciences`, where I am advised by [Shauli Ravfogel](https://shauli-ravfogel.netlify.app/) and [Tal Linzen](https://tallinzen.net/) at the [CILVR](https://wp.nyu.edu/cilvr/) lab and collaborating with [Jackson Petty](https://jacksonpetty.org/about/) at the [Computation and Psycholinguistics](https://caplabnyu.github.io/) lab.
 
-My primary research interests lie in language and vision understanding. I work extensively in the field of `transfer learning`, `foundation models` and `representation learning`, with a focus on building task-agnostic multi-modal approaches to advance understanding and reasoning capabilities in machines. 
+My research primarily focuses on `language understanding`, `reasoning` and `interpretability`. My work spans representation learning, pre-training and transfer learning techniques, with a focus on studying the training and inference dynamics of language models -- how they encode and represent knowledge, apply it to solve tasks, and how we can control and interpret their internal representations.
 
-Previously, I was an `Applied Researcher` at [Cisco Webex AI](https://www.webex.ai/) where I fine-tuned `on-prem LLMs` to integrate secure and cost-effective AI solutions with the [Webex AI Assistant](https://www.webex.com/ai-assistant.html). I have also worked as an `Applied Research Scientist Intern` at [Intel](https://www.intel.in/content/www/in/en/homepage.html) Research India, where I was advised by [Dr. Anbumani Subramanian](https://sites.google.com/view/anbumani/) and [Anay Majee](http://anaymajee.me/) to develop `attention mechanisms` for vision, aimed at autonomous driving in unconstrained and heterogenous traffic environments like India. 
+Previously, I was an `Applied Researcher` at [Cisco Webex AI](https://www.webex.ai/) where I fine-tuned `on-prem LLMs` to integrate secure and cost-effective AI solutions with the [Webex AI Assistant](https://www.webex.com/ai-assistant.html). I have also worked as an `Applied Research Scientist Intern` at [Intel (VSG) Research](https://www.intel.in/content/www/in/en/homepage.html), where I was advised by Dr. [Anbumani Subramanian](https://sites.google.com/view/anbumani/) and [Anay Majee](http://anaymajee.me/) to develop `attention mechanisms` for vision, aimed at autonomous driving in unconstrained, heterogenous traffic environments like India.
 
-Even earlier, I worked as a `Research Assistant` at the [Center for Cloud Computing & Big Data](https://research.pes.edu/cloud-computing-big-data/) during my undergraduate studies at [PES University](https://pes.edu/), where I was advised by [Dr. KV Subramanium](https://www.linkedin.com/in/kalsubra/) and worked on analysing tail latencies for latency-critical applications ranging from language to vision.
+Even earlier, I worked as a `Research Assistant` at the [Center for Cloud Computing & Big Data](https://research.pes.edu/cloud-computing-big-data/) during my undergraduate studies at [PES University](https://pes.edu/), where I was advised by Dr. [KV Subramanium](https://www.linkedin.com/in/kalsubra/) and worked on analysing tail latencies for latency-critical applications ranging from language to vision.
 
 You can read about my current and my published research on my [publications](/publications/) page!
 
