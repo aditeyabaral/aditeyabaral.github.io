@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-started-working-as-a-research-assistant-at-the-center-for-cloud-computing-amp-amp-big-data-pes-university-and-was-advised-by-dr-kv-subramanium",
+        },{id: "news-started-working-as-a-research-assistant-at-the-center-for-cloud-computing-amp-amp-big-data-at-pes-university-and-was-advised-by-dr-kv-subramanium",
           title: 'Started working as a Research Assistant at the Center for Cloud Computing &amp;amp;amp;...',
           description: "",
-          section: "News",},{id: "news-started-working-as-an-applied-research-scientist-intern-at-intel-research-india-i-was-advised-by-dr-anbumani-subramanian-and-anay-majee",
-          title: 'Started working as an Applied Research Scientist Intern at Intel Research, India. I...',
+          section: "News",},{id: "news-started-working-as-an-applied-research-scientist-intern-at-intel-vsg-research-india-i-was-advised-by-dr-anbumani-subramanian-and-anay-majee",
+          title: 'Started working as an Applied Research Scientist Intern at Intel (VSG) Research, India....',
           description: "",
           section: "News",},{id: "news-paper-titled-analysis-of-kepler-objects-of-interest-using-machine-learning-for-exoplanet-identification-accepted-at-ieee-conit-2021",
           title: 'Paper titled “Analysis of Kepler Objects of Interest using Machine Learning for Exoplanet...',
@@ -63,12 +63,27 @@ ninja.data = [{
           section: "News",},{id: "news-started-my-masters-in-computer-science-at-new-york-university-s-courant-institute-of-mathematical-sciences",
           title: 'Started my Masters in Computer Science at New York University’s Courant Institute of...',
           description: "",
+          section: "News",},{id: "news-started-working-as-a-research-assistant-at-the-computational-intelligence-vision-and-robotics-lab-at-new-york-university-where-i-am-advised-by-shauli-ravfogel-and-tal-linzen",
+          title: 'Started working as a Research Assistant at the Computational Intelligence, Vision, and Robotics...',
+          description: "",
+          section: "News",},{id: "news-started-working-as-a-graduate-student-researcher-at-the-computation-and-psycholinguistics-lab-at-new-york-university-where-i-collaborate-with-jackson-petty",
+          title: 'Started working as a Graduate Student Researcher at the Computation and Psycholinguistics lab...',
+          description: "",
+          section: "News",},{id: "news-preprint-titled-cmlformer-a-dual-decoder-transformer-with-switching-point-learning-for-code-mixed-language-modeling-released-on-arxiv",
+          title: 'Preprint titled “CMLFormer: A Dual Decoder Transformer with Switching Point Learning for Code-Mixed...',
+          description: "",
+          section: "News",},{id: "news-preprint-titled-can-llms-understand-math-exploring-the-pitfalls-in-mathematical-reasoning-released-on-arxiv",
+          title: 'Preprint titled “Can LLMs understand Math? – Exploring the Pitfalls in Mathematical Reasoning”...',
+          description: "",
+          section: "News",},{id: "news-started-interning-as-an-ai-research-intern-at-redis-as-part-of-the-redisvl-and-vector-search-team",
+          title: 'Started interning as an AI Research Intern at Redis as part of the...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%61%64%69%74%65%79%61%62%61%72%61%6C [@] %6E%79%75 [%64%6F%74] %65%64%75", "_blank");
+          window.open("mailto:%61%64%69%74%65%79%61%62%61%72%61%6C@%6E%79%75.%65%64%75", "_blank");
         },
       },{
         id: 'social-scholar',
