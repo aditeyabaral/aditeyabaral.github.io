@@ -75,7 +75,7 @@ ninja.data = [{
           section: "News",},{id: "news-preprint-titled-can-llms-understand-math-exploring-the-pitfalls-in-mathematical-reasoning-released-on-arxiv",
           title: 'Preprint titled “Can LLMs understand Math? – Exploring the Pitfalls in Mathematical Reasoning”...',
           description: "",
-          section: "News",},{id: "news-started-interning-as-an-ai-research-intern-at-redis-as-part-of-the-redisvl-and-vector-search-team",
+          section: "News",},{id: "news-started-interning-as-an-ai-research-intern-at-redis-as-part-of-the-redis-langcache-team",
           title: 'Started interning as an AI Research Intern at Redis as part of the...',
           description: "",
           section: "News",},{
