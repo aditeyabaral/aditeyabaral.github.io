@@ -19,6 +19,7 @@
       description:
         - 'GPA: 3.78/4.00'
         - 'Concentration: Artificial Intelligence'
+        - Worked as a Research Assistant at CILVR and Computation & Psycholinguistics Lab, advised by Jackson Petty, Shauli Ravfogel and Tal Linzen.
         - 'Relevant Courses: NLP/Representation Learning, NLP/Computational Semantics, NLP/Emerging Topics'
 
     - title: Bachelor of Technology in Computer Science & Engineering
@@ -34,6 +35,24 @@
 - title: Research Experience
   type: time_table
   contents:
+
+    - title: AI Research Intern
+      institution: Redis
+      year: June '25 - Present
+      description:
+        - Exploring semantic caching techniques using retrieval models to accelerate LLM inference in agent-based systems.
+
+    - title: Research Assistant
+      institution: Computational Intelligence, Vision, and Robotics (CILVR) Lab, NYU
+      year: May '25 - Present
+      description:
+        - Investigating the evolution and generalization of arithmetic heuristic circuits in LLMs for mathematical reasoning using activation patching and circuit analysis
+
+    - title: Research Assistant
+      institution: Computation and Psycholinguistics Lab Lab, NYU
+      year: May '25 - Present
+      description:
+        - Evaluating LLMs on compositional generalization and instruction synthesis by studying their ability to perform few and zero-shot translation of synthetic Context-Free Grammars (CFG) into conforming strings
 
     - title: Applied Researcher
       institution: Cisco Systems, India

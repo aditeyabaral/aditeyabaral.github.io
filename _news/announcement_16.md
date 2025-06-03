@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started interning as an `AI Research Intern` at `Redis` as part of the `RedisVL and Vector Search` team.
+Started interning as an `AI Research Intern` at `Redis` as part of the `Redis LangCache` team.
