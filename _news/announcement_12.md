@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started working as a `Research Assistant` at the [Computational Intelligence, Vision, and Robotics](https://wp.nyu.edu/cilvr/) lab at New York University, where I am advised by [Shauli Ravfogel](https://shauli-ravfogel.netlify.app/) and [Tal Linzen](https://tallinzen.net/).
+Started working as a `Research Assistant` at the [Computation and Psycholinguistics](https://caplabnyu.github.io/) lab at New York University, where I am advised by [Jackson Petty](https://jacksonpetty.org/about/) and [Tal Linzen](https://tallinzen.net/).

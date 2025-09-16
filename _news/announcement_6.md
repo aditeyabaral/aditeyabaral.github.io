@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started interning as a `Big Data Analytics Engineering Intern` at `Cisco Webex` as part of the `VideoMesh Analytics & API` team.
+Started interning as a `Big Data Engineering Intern` at `Cisco Webex` as part of the `VideoMesh Analytics` team.

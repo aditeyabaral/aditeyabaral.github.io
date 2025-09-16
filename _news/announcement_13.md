@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-04-01 07:59:00-0400
+date: 2025-05-19 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Started working as a `Graduate Student Researcher` at the [Computation and Psycholinguistics](https://caplabnyu.github.io/) lab at New York University, where I collaborate with [Jackson Petty](https://jacksonpetty.org/about/).
+Preprint titled "CMLFormer: A Dual Decoder Transformer with Switching Point Learning for Code-Mixed Language Modeling" released on arXiv.

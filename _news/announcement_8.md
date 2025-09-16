@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started working full-time as a `Big Data Analytics Engineer` at `Cisco Webex` as part of the `Media Quality Analytics` team.
+Started working full-time as a `Big Data and Applied AI Engineer` at `Cisco Webex` as part of the `Media Quality Analytics` team.

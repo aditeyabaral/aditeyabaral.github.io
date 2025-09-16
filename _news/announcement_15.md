@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-05-21 07:59:00-0400
+date: 2025-06-09 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Preprint titled "Can LLMs *understand* Math? -- Exploring the Pitfalls in Mathematical Reasoning" released on arXiv.
+Started interning as an `Applied Research Scientist Intern` at `Redis` as part of the `Redis LangCache` team.
