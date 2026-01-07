@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "My internal whitepapers and publications in peer-reviewed conferences.",
+          description: "My posters, papers and publications in peer-reviewed conferences.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -30,7 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-started-working-as-a-research-assistant-at-the-center-for-cloud-computing-amp-amp-big-data-at-pes-university-and-was-advised-by-dr-kv-subramanium",
+        },{id: "news-started-working-as-a-research-assistant-at-the-center-for-cloud-computing-amp-amp-big-data-at-pes-university-and-was-advised-by-dr-kv-subramaniam",
           title: 'Started working as a Research Assistant at the Center for Cloud Computing &amp;amp;amp;...',
           description: "",
           section: "News",},{id: "news-started-working-as-an-applied-research-scientist-intern-at-intel-vsg-research-india-i-was-advised-by-dr-anbumani-subramanian-and-anay-majee",
@@ -57,7 +57,7 @@ ninja.data = [{
           section: "News",},{id: "news-paper-titled-chatbert-multi-task-approach-to-pre-training-for-structured-conversations-published-internally-at-cisco-webex-ai-research",
           title: 'Paper titled “ChatBERT - Multi-task approach to Pre-Training for Structured Conversations” published internally...',
           description: "",
-          section: "News",},{id: "news-started-my-masters-in-computer-science-at-new-york-university-s-courant-institute-of-mathematical-sciences",
+          section: "News",},{id: "news-started-my-masters-in-computer-science-at-new-york-university-s-courant-institute-of-mathematics-computing-and-data-science",
           title: 'Started my Masters in Computer Science at New York University’s Courant Institute of...',
           description: "",
           section: "News",},{id: "news-started-working-as-a-research-assistant-at-the-computational-intelligence-vision-and-robotics-lab-at-new-york-university-where-i-am-advised-by-shauli-ravfogel-and-tal-linzen",
@@ -65,6 +65,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-started-working-as-a-research-assistant-at-the-computation-and-psycholinguistics-lab-at-new-york-university-where-i-am-advised-by-jackson-petty-and-tal-linzen",
           title: 'Started working as a Research Assistant at the Computation and Psycholinguistics lab at...',
+          description: "",
+          section: "News",},{id: "news-poster-titled-patch-and-control-steering-behavior-of-large-vision-language-models-via-latent-activations-presented-at-nyu",
+          title: 'Poster titled “Patch and Control: Steering Behavior of Large Vision-Language Models via Latent...',
           description: "",
           section: "News",},{id: "news-preprint-titled-cmlformer-a-dual-decoder-transformer-with-switching-point-learning-for-code-mixed-language-modeling-released-on-arxiv",
           title: 'Preprint titled “CMLFormer: A Dual Decoder Transformer with Switching Point Learning for Code-Mixed...',
@@ -74,6 +77,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-started-interning-as-an-applied-research-scientist-intern-at-redis-as-part-of-the-redis-langcache-team",
           title: 'Started interning as an Applied Research Scientist Intern at Redis as part of...',
+          description: "",
+          section: "News",},{id: "news-poster-titled-when-means-probing-arithmetic-circuits-under-symbol-redefinition-presented-at-nyu",
+          title: 'Poster titled “When ‘+’ Means ‘-’ – Probing Arithmetic Circuits Under Symbol Redefinition”...',
           description: "",
           section: "News",},{
         id: 'social-email',
@@ -95,20 +101,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.semanticscholar.org/author/2122681176", "_blank");
-        },
-      },{
-        id: 'social-researchgate',
-        title: 'ResearchGate',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.researchgate.net/profile/Aditeya-Baral-2/", "_blank");
-        },
-      },{
-        id: 'social-ieee',
-        title: 'IEEE Xplore',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://ieeexplore.ieee.org/author/37088925575/", "_blank");
         },
       },{
         id: 'social-github',
