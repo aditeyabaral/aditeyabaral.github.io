@@ -14,21 +14,21 @@
   type: time_table
   contents:
     - title: Masters in Computer Science
-      institution: New York University, Courant Institute of Mathematical Sciences
-      year: Sep '24 - Jun '26
+      institution: New York University, Courant Institute of Mathematics, Computing and Data Science
+      year: Sep '24 - May '26
       description:
-        - 'GPA: 3.78/4.00'
+        - 'GPA: 3.83/4.00'
         - 'Concentration: Artificial Intelligence'
-        - Worked as a Research Assistant at CILVR and Computation & Psycholinguistics Lab, advised by Jackson Petty, Shauli Ravfogel and Tal Linzen.
+        - Worked as a Research Assistant at CILVR and Computation & Psycholinguistics Lab, advised by Shauli Ravfogel, Jackson Petty, and Tal Linzen.
 
     - title: Bachelor of Technology in Computer Science & Engineering
       institution: PES University, Bengaluru, India
-      year: Aug '18 - July '22
+      year: Aug '18 - May '22
       description:
         - 'GPA: 8.71/10.00 ≈ 3.76/4.00'
         - 'Specialization: Machine Intelligence and Data Science'
         - Received the Undergraduate Researcher Award for my work in the field of Machine Learning.
-        - Worked as a Research Assistant at the Center for Cloud Computing & Big Data, advised by Dr. KV Subramanium.
+        - Worked as a Research Assistant at the Center for Cloud Computing & Big Data, advised by Dr. KV Subramaniam.
 
 - title: Research Experience
   type: time_table
@@ -37,50 +37,52 @@
       institution: Redis, San Francisco, USA
       year: June '25 – Dec '25
       description:
-        - Improved semantic retrieval in Redis LangCache by building novel cross-encoder architectures with late-interaction attention mechanisms, yielding 24% F1 and 18% precision improvements over baselines.
-        - Curated LangCache-SentencePairs-v1, a large-scale dataset for supervised fine-tuning of sentence embedding models.
-        - Fine-tuned and open-sourced LangCache Embed v3 and LangCache Reranker v1, achieving up to 28% recall increase and improving cache-hit quality.
-        - Quantified retriever coverage bottlenecks and reranking effectiveness by analyzing recall ceilings and movement to optimize operational trade-offs and cache-hit precision.
-        - Developed a comprehensive evaluation framework for LangCache customers, enabling systematic analysis of cache-hit rates, precision, and recall prior to onboarding.
-        - Supported downstream integration and development of LMCache by prototyping and conducting performance studies with Redis as an in-memory KV store, demonstrating latency and throughput gains.
+        - Architected a two-stage retrieval and re-ranking pipeline for Redis LangCache, achieving a 12.5% PR-AUC and 8% P-CHR AUC improvement over baselines by integrating cross-encoder re-rankers for full token-level interaction.
+        - Curated and open-sourced LangCache SentencePairs (v1-v3), a large-scale dataset family spanning 1M to 40M examples from diverse linguistic sources, enabling robust fine-tuning of semantic retrieval and re-ranking models.
+        - Open-sourced LangCache ReRanker v1 and v2 model families comprising cross-encoder variants fine-tuned with ranking and classification objectives, enabling application-specific score calibration for diverse semantic caching use cases.
+        - Assisted in the fine-tuning and deployment of LangCache Embed v3, a generalist model for semantic retrieval, achieving 13.5% PR-AUC improvement over v2 and outperforming larger general-purpose models even without re-ranking.
+        - Developed a comprehensive evaluation framework integrated with RedisVL for LangCache customers, enabling systematic analysis of achievable P-CHR tradeoffs, valid cache-hit rates, and operational thresholds before onboarding.
+        - Quantified retriever bottlenecks and aggressive vs. conservative re-ranking effectiveness by analyzing recall ceilings and re-ranking movement to optimize operational trade-offs and improve cache-hit quality.
+        - Supported downstream integration and development of LMCache by building prototypes and conducting performance studies with Redis as an in-memory KV store, demonstrating latency and throughput gains.
 
     - title: Research Assistant
       institution: Computational Intelligence, Vision, and Robotics (CILVR) Lab, NYU
       year: May '25 – Present
       description:
-        - Investigating the evolution and generalization of arithmetic heuristic circuits in LLMs for mathematical reasoning using circuit analysis.
-        - Examining whether targeted interventions in LLMs at inference can alter reasoning strategies.
+        - Investigating arithmetic circuit dynamics in LLMs when operators are redefined in-context by analyzing activation representations and attention patterns across transformer layers using Llama-3.3-70B-Instruct.
+        - Conducting layer-wise analysis of activation geometry using PCA, centroid trajectories, and cluster separability metrics to trace representational evolution under operator semantic redefinition.
+        - Examining attention circuit reconfiguration at token and head levels to determine whether semantic remapping reuses existing circuits or activates distinct computational pathways.
 
     - title: Research Assistant
       institution: Computation and Psycholinguistics Lab, NYU
       year: May '25 – Present
       description:
         - Evaluating LLMs on compositional generalization and instruction synthesis by studying their ability to translate synthetic Context-Free Grammars (CFGs) into conforming strings.
-        - Analyzing model outputs in few- and zero-shot settings to assess grammatical conformity and uncover generation strategies.
+        - Analyzing model outputs in few- and zero-shot settings to assess grammatical conformity and uncover generation strategies used during translation.
 
     - title: Applied AI Engineer, Webex Media Quality Analytics
       institution: Cisco Systems, Bengaluru, India
       year: Jul '22 – Jul '24
       description:
-        - Instruction fine-tuned LLMs like Mistral and Llama-2 on-prem to enable secure and cost-effective AI solutions such as translation and RAG, cutting third-party dependency costs by 30%.
-        - Built a novel pre-training algorithm for conversational data using PyTorch and HuggingFace, achieving a 40% performance gain over standard approaches at benchmark fine-tuning tasks.
+        - Instruction fine-tuned LLMs like Mistral and Llama-2 on-prem to enable secure and cost-effective AI solutions such as translation and RAG for engineers and customers, cutting third-party dependency costs by 30%.
+        - Led the initiative to build a novel pre-training algorithm for conversational data using PyTorch and HuggingFace, achieving a 40% performance gain over standard approaches at benchmark fine-tuning tasks.
         - Developed the Webex Contextual Search engine and improved searching, ranking, recommendations, and topic modeling by 75% with <10% increased overhead latency.
-        - Integrated OpenAI APIs and on-prem LLMs with the Webex AI Assistant for 15M+ users to add auto-replies, summarization, querying, and action-item extraction.
+        - Integrated OpenAI APIs and on-prem LLMs with the Webex AI Assistant for 15M+ worldwide users to add auto-replies, summarization, querying, and action-item extraction to message threads and meeting transcripts.
 
     - title: Applied Research Scientist Intern, Intel (VSG) Research
       institution: Intel Corporation, Bengaluru, India
       year: Aug '21 – Dec '21
       description:
         - Explored Few-Shot Learning Object Detection (FSOD) techniques to reduce catastrophic forgetting in constrained and heterogeneous driving environments.
-        - Designed novel representation learning and attention mechanisms to learn inter/intra-object relationships using PyTorch.
-        - Outperformed prior approaches by 0.2 mAP on base and 3 mAP on novel classes on the Few-Shot India Driving Dataset benchmark.
+        - Investigated and designed novel representation learning and attention mechanisms to learn inter/intra-object relationships using PyTorch.
+        - Outperformed existing approaches at the time on base and novel classes by 0.2 mAP and 3 mAP on the Few-Shot India Driving Dataset, a benchmark for FSOD.
 
     - title: Research Assistant
       institution: Center for Cloud Computing & Big Data, PES University
       year: May '20 – Jul '20
       description:
         - Compiled and used TailBench to simulate and profile application loads, monitor performance, and analyze results.
-        - Explored techniques to reduce tail latencies in latency-critical applications such as translation and image recognition.
+        - Explored ways to reduce tail latencies in latency-critical applications such as translation and image recognition.
 
 - title: Industry Experience
   type: time_table
@@ -91,29 +93,29 @@
       year: Jul '22 – Jul '24
       description:
         - Developed and deployed streaming jobs in Scala and Flink to process 1M+ reports/min and compute 1200+ real-time metrics from Calls and Meetings.
-        - Applied statistical modeling to generate media quality insights for downstream consumers, reducing errors by 30% and analysis time by 15 hrs/week.
-        - Built real-time (<1 min) auditing pipelines using Kafka and Python to ensure per-minute data consistency between streaming jobs and Iceberg/Pinot stores, reducing manual effort by >80%.
-        - Created dashboards with Grafana and Kibana to monitor KPIs and set alerts for 20,000+ clients.
+        - Applied statistical modeling techniques to investigate and report media quality insights to downstream consumers, reducing errors by 30% and analysis time by 15 hrs/week per team member.
+        - Led the development of real-time (<1 min) auditing pipelines using Kafka and Python to ensure per-minute data consistency between streaming jobs and Iceberg and Pinot data stores, reducing manual effort by >80%.
+        - Built graphs and dashboards on the Webex Media Quality Analytics Dashboard using Grafana and Kibana to set up alerts and KPIs for 20,000+ clients and customers.
 
     - title: Big Data Engineering Intern, Webex VideoMesh Analytics
       institution: Cisco Systems, Bengaluru, India
       year: Jan '22 – Jun '22
       description:
-        - Migrated the Meetings Analytics Engine from Java/Spark to Scala/Flink to scale to 1M+ reports/min and improve real-time report generation by >40%.
-        - Built VideoMesh Developer APIs in Java and rolled them out to 30,000+ enterprises with customer-facing applications.
+        - Migrated the Meetings Analytics Engine from Java and Spark to Scala and Flink to scale up to 1M+ reports/min and significantly improve real-time report generation by over 40%.
+        - Built VideoMesh Developer APIs using Java and globally rolled them out for 30,000+ enterprises with customer-facing applications.
 
 
 - title: Skills
   type: time_table
   contents:
     - title: Languages
-      items: Python, Scala, Java, C, R, Groovy, Octave, SQL, LaTeX
-    - title: ML/Stats
+      items: Python, Scala, Java, C/C++, R, Groovy, SQL, LaTeX
+    - title: ML/Stats Libraries
       items: PyTorch, Tensorflow, HuggingFace, NLTK, pandas, NumPy, scikit-learn, seaborn, matplotlib, plotly
-    - title: Artificial Intelligence Techniques
-      items: Representation Learning, Transfer Learning, Few-Shot Learning, Language Models, Natural Language Understanding
+    - title: AI/ML Techniques
+      items: Representation Learning, Mechanistic Interpretability, Transfer Learning, Language Models, RAG
     - title: Big Data/Cloud
-      items: Hadoop, Kafka, Zookeeper, Spark, Flink, Iceberg, Pinot, ELK
+      items: Hadoop, Kafka, Zookeeper, Spark, Flink, Iceberg, Pinot, Redis, ELK
     - title: Frameworks/Tools
       items: Git, GitHub, Jenkins, Docker, Kubernetes, Flask, Grafana, PSQL, MongoDB, AWS, Linux
 
@@ -124,12 +126,12 @@
       items:
         - title: 'Second Place out of 20+ teams at Webex Analytics Datathon 2024'
           contents:
-            - Containerised and deployed a self-sufficient, on-prem and quantised LLM-RAG pipeline to assist engineers with engineering queries and incident resolution.  
+            - Containerized and deployed a self-sufficient, on-prem and quantized LLM-RAG pipeline to assist engineers with engineering queries and incident resolution.  
     - year: 2023
       items:
         - title: 'Ranked #1 Internationally out of 300+ teams at the Webex IDEA Hackathon 2023'
           contents:
-            - 'Integrated OpenAI LLM APIs with the Webex Assistant to enable summarisation of message threads, media and transcripts: https://www.webex.ai/?socialshare=VideoOverlayPlayer'
+            - 'Integrated OpenAI LLM APIs with the Webex Assistant to enable summarization of message threads, media and transcripts: https://www.webex.ai/?socialshare=VideoOverlayPlayer'
             - Developed thread-related user actions like searching, grouping and sorting across Webex.
             - Assisted in globally rolling out these features worldwide.
         - title: 'Ranked #1 regionally and Top 20 Internationally out of 300+ teams at the Webex Playtime Hackathon 2023'
@@ -138,7 +140,8 @@
     - year: 2022
       items: 
         - Awarded the Undergraduate Researcher Award by PES University for my work in the field of Machine Learning.
-        - 3x Scholarship Recipient and 3x Distinction Certificate Awardee for academic excellence at PES University.
+        - 3x Scholarship Recipient (Prof. CNR Rao, MRD & DAC Scholarship Awards) for being in the top 20% among 900+ students at PES University.
+        - Finalist at Intel Technovation, Flipkart, IBM, and IISc Hackathons, placing among the top 200+ teams.
     - year: 2017
       items:
         - title: 'National newspaper coverage for proposing the currently implemented model to track garbage collection in Bengaluru.'
@@ -161,6 +164,5 @@
 
     - year: 2021
       items: 
-        - Appointed a Teaching Assistant for the Big Data course at the Department of Computer Science, PES University.
-        - Setup automated grading of submissions, designed and graded coursework, assignments and project deliverables, and delivered hands-on sessions on Hadoop and Spark for a class of 600+ enrolled students.
-
+        - Appointed a Teaching Assistant for CS322 Big Data course at the Department of Computer Science, PES University.
+        - Designed and graded coursework, assignments and projects, and delivered hands-on sessions on Hadoop and Spark for a class of 600+ enrolled students for the undergraduate Big Data course.

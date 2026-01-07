@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my `Masters in Computer Science` at New York University's `Courant Institute of Mathematical Sciences`.
+Started my `Masters in Computer Science` at New York University's `Courant Institute of Mathematics, Computing and Data Science`.
