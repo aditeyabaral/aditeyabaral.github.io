@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Aditeya
 middle_name:
 last_name: Baral
-contact_note: The best way to reach me is by sending an email. Please do give me a day or two to respond.
+contact_note: The best way to reach me is by sending an email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Aditeya Baral's academic portfolio.
 footer_text: >

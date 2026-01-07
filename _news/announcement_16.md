@@ -1,0 +1,8 @@
+---
+layout: post
+date: 2025-06-09 07:59:00-0400
+inline: true
+related_posts: false
+---
+
+Started interning as an `Applied Research Scientist Intern` at `Redis` as part of the `Redis LangCache` team.
