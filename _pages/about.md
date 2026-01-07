@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Masters in Computer Science student at New York University's `Courant Institute of Mathematics, Computing and Data Science`, where I am advised by [Shauli Ravfogel](https://shauli-ravfogel.netlify.app/) and [Tal Linzen](https://tallinzen.net/) at the [CILVR](https://wp.nyu.edu/cilvr/) lab, and advised by [Jackson Petty](https://jacksonpetty.org/about/) and Tal at the [Computation and Psycholinguistics](https://caplabnyu.github.io/) lab. 
+I am a Masters in Computer Science student at New York University's `Courant Institute of Mathematics, Computing and Data Science`, where I work at the [CILVR](https://wp.nyu.edu/cilvr/) lab and the [Computation and Psycholinguistics](https://caplabnyu.github.io/) lab, advised by [Tal Linzen](https://tallinzen.net/), [Shauli Ravfogel](https://shauli-ravfogel.netlify.app/), and [Jackson Petty](https://jacksonpetty.org/about/).
 
 I am fascinated by how we acquire and use languages across diverse contexts, specifically in understanding how linguistic information is transformed into abstract internal ideas -- and how this process translates to machines. My goal is to uncover the principles underlying how machines learn, understand, and reason with language. My research primarily focuses on language understanding, `reasoning`, and `interpretability` through `representation learning`, with emphasis on studying the `training and inference dynamics` of language models -- how they encode and represent knowledge, apply it to solve tasks, and how we can control and interpret their internal representations.
 
