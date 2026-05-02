@@ -2,16 +2,14 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Courses I taught and assisted with as an Assistant.
+description: Course materials, schedules, and resources for classes taught.
 nav: true
-nav_order: 5
+nav_order: 6
+calendar: true
 ---
 
-## CS322 - Big Data
-*Teaching Assistant - Fall 2021*
+This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
 
-I assisted [Dr. KV Subramaniam](https://www.linkedin.com/in/kalsubra/), [Dr. Prafullata K Auradkar](https://www.linkedin.com/in/prafullata-auradkar-23882a57/) and [Prof. Animesh Giri](https://www.linkedin.com/in/animesh-giri-15272531) with the undergraduate course `UE19CS322: Big Data` during the Fall 2021 semester at PES University.
+{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
 
-<!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like! -->
+{% include courses.liquid %}
