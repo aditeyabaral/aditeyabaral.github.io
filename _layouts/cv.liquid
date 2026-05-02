@@ -18,18 +18,42 @@ layout: default
     <h1 class="post-title">
       {{ page.title }}
       {% if page.cv_pdf %}
-        <a
-          {% if page.cv_pdf contains '://' %}
-            href="{{ page.cv_pdf }}"
-          {% else %}
-            href="{{ page.cv_pdf | relative_url }}"
+        <span class="float-right" style="font-size:0.75em; font-weight:normal;">
+          {% if page.ml_pdf %}
+            <a
+              {% if page.ml_pdf contains '://' %}
+                href="{{ page.ml_pdf }}"
+              {% else %}
+                href="{{ page.ml_pdf | relative_url }}"
+              {% endif %}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="ml-3"
+            ><i class="fa-solid fa-brain"></i> ML</a>
           {% endif %}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="float-right"
-        >
-          <i class="fa-solid fa-file-pdf"></i>
-        </a>
+          {% if page.swe_pdf %}
+            <a
+              {% if page.swe_pdf contains '://' %}
+                href="{{ page.swe_pdf }}"
+              {% else %}
+                href="{{ page.swe_pdf | relative_url }}"
+              {% endif %}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="ml-3"
+            ><i class="fa-solid fa-code"></i> SWE</a>
+          {% endif %}
+          <a
+            {% if page.cv_pdf contains '://' %}
+              href="{{ page.cv_pdf }}"
+            {% else %}
+              href="{{ page.cv_pdf | relative_url }}"
+            {% endif %}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="ml-3"
+          ><i class="fa-solid fa-graduation-cap"></i> CV</a>
+        </span>
       {% endif %}
     </h1>
     {% if page.description %}
@@ -120,30 +144,32 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- RenderCV Sections - Merge Experience and Volunteer -->
-        {% comment %} First, combine Experience and Volunteer entries {% endcomment %}
+        <!-- RenderCV Sections - rendered in cv.yml order; Experience and Volunteer are merged -->
         {% assign empty_array = '' | split: ',' %}
         {% assign exp = cv.sections.Experience | default: empty_array %}
         {% assign vol = cv.sections.Volunteer | default: empty_array %}
         {% assign combined_experience = exp | concat: vol %}
-        {% if combined_experience.size > 0 %}
-          <a class="anchor" id="experience"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Experience</h3>
-            <div>
-              {% assign entries = combined_experience %}
-              {% include cv/experience.liquid %}
-            </div>
-          </div>
-        {% endif %}
+        {% assign experience_rendered = false %}
 
-        {% comment %} Now render all other sections except Experience and Volunteer {% endcomment %}
         {% for section_pair in cv.sections %}
           {% assign section_title = section_pair[0] %}
           {% assign section_entries = section_pair[1] %}
 
-          {% comment %} Skip Experience and Volunteer as we've already processed them combined {% endcomment %}
+          {% comment %} Render Experience+Volunteer combined when either is first encountered {% endcomment %}
           {% if section_title == 'Experience' or section_title == 'Volunteer' %}
+            {% unless experience_rendered %}
+              {% assign experience_rendered = true %}
+              {% if combined_experience.size > 0 %}
+                <a class="anchor" id="experience"></a>
+                <div class="card mt-3 p-3">
+                  <h3 class="card-title font-weight-medium">Experience</h3>
+                  <div>
+                    {% assign entries = combined_experience %}
+                    {% include cv/experience.liquid %}
+                  </div>
+                </div>
+              {% endif %}
+            {% endunless %}
             {% continue %}
           {% endif %}
 
@@ -178,6 +204,9 @@ layout: default
               {% elsif section_title == 'References' %}
                 {% assign entries = section_entries %}
                 {% include cv/references.liquid %}
+              {% elsif section_title == 'Services and Volunteering' or section_title == 'Service' or section_title == 'Volunteering' %}
+                {% assign entries = section_entries %}
+                {% include cv/awards.liquid %}
               {% else %}
                 <!-- Generic section -->
                 {% for entry in section_entries %}
