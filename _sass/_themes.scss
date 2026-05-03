@@ -20,6 +20,7 @@
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{v.$white-color};
   --global-highlight-color: #{v.$red-color-dark};
+  --global-code-text-color: #{v.$purple-color};
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$black-color, "red", v.$space: rgb)},
     #{color.channel(v.$black-color, "green", v.$space: rgb)},
@@ -98,6 +99,19 @@ html[data-theme="dark"] {
   --global-back-to-top-text-color: #{v.$black-color};
   --global-newsletter-bg-color: #{v.$grey-color-light};
   --global-newsletter-text-color: #{v.$grey-color-dark};
+  --global-code-text-color: #a1a1aa;
+
+  code {
+    color: #a1a1aa;
+  }
+
+  a,
+  table.table a {
+    color: #7eb8d4;
+    &:hover {
+      color: #7eb8d4;
+    }
+  }
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #215d42;
