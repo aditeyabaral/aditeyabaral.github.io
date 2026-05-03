@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper titled "Information Maximization to Overcome Catastrophic Forgetting in Few-Shot Object Detection" published internally at `Intel (VSG) Research`.
+Paper titled "Information Maximization to Overcome Catastrophic Forgetting in Few-Shot Object Detection" published internally at `Intel VSG`.

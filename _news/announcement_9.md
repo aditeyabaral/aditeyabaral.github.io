@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper titled "ChatBERT - Multi-task approach to Pre-Training for Structured Conversations" published internally at `Cisco Webex AI Research`.
+Paper titled "ChatBERT - Multi-task approach to Pre-Training for Structured Conversations" published internally at `Cisco Webex AI`.

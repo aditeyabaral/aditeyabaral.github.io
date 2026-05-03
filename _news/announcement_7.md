@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper titled "CalBERT – Code-Mixed Adaptive Language Representations Using BERT" accepted at `AAAI 2022`, MAKE Symposium.
+Paper titled "CalBERT – Code-Mixed Adaptive Language Representations Using BERT" accepted at the `MAKE Symposium, AAAI 2022`.
