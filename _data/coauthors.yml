@@ -1,34 +1,51 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"ajith":
+  - firstname: ["Allen George", "Allen"]
+    url: https://scholar.google.com/citations?user=QZTRsLYAAAAJ
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"agarwal":
+  - firstname: ["Jen"]
+    url: https://scholar.google.com/citations?user=x5dXQx8AAAAJ
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"baig":
+  - firstname: ["Yusuf", "Yusuf Mirza"]
+    url: https://scholar.google.com/citations?user=aSqmtGAAAAAJ
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"bhanja":
+  - firstname: ["Mrityunjay Abhijeet", "Mrityunjay"]
+    url: https://scholar.google.com/citations?user=Z2LsMsIAAAAJ
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"bhamare":
+  - firstname: ["Ameya Rajendra", "Ameya"]
+    url: https://scholar.google.com/citations?user=QlklRLIAAAAJ
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"jain":
+  - firstname: ["Himanshu"]
+    url: https://scholar.google.com/citations?user=LvPghQsAAAAJ
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"jhaveri":
+  - firstname: ["Ayush Rajesh", "Ayush"]
+    url: https://scholar.google.com/citations?user=l1LOVTMAAAAJ
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"nayak":
+  - firstname: ["Roshan"]
+    url: https://scholar.google.com/citations?user=qR-6lfgAAAAJ
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"ralev":
+  - firstname: ["Radoslav"]
+    url: https://scholar.google.com/citations?user=RxvL6b0AAAAJ
+
+"ravfogel":
+  - firstname: ["Shauli"]
+    url: https://shauli-ravfogel.netlify.app/
+
+"roy":
+  - firstname: ["Tiasa Singha", "Tiasa"]
+    url: https://scholar.google.com/citations?user=Sns0KJYAAAAJ
+
+"sarkar":
+  - firstname: ["Ansh"]
+    url: https://www.linkedin.com/in/sarkaransh/
+
+"zhechev":
+  - firstname: ["Iliya", "Iliya Sotirov"]
+    url: https://scholar.google.com/citations?user=vsU7kJAAAAAJ
