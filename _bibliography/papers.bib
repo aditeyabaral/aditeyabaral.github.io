@@ -69,14 +69,14 @@
 
 @inproceedings{ralev2026trainingcompositionalsensitivityreduces,
   title          = {Training for Compositional Sensitivity Reduces Dense Retrieval Generalization},
-  author         = {Radoslav Ralev and Aditeya Baral and Iliya Zhechev and Jen Agarwal and Srijith Rajamohan},
+  author         = {Radoslav Ralev and Aditeya Baral and Iliya Sotirov Zhechev and Jen Agarwal and Srijith Rajamohan},
   booktitle      = {Workshop on Scientific Methods for Understanding Deep Learning (Sci4DL), ICLR 2026},
   year           = {2026},
   eprint         = {2604.16351},
   archivePrefix  = {arXiv},
   primaryClass   = {cs.IR},
   url            = {https://arxiv.org/abs/2604.16351},
-  abbr           = {ICLR Sci4DL ’26},
+  abbr           = {ICLR Sci4DL ‘26},
   arXiv          = {2604.16351},
   html           = {https://openreview.net/forum?id=F5ueiEGP4l},
   abstract       = {Dense retrieval compresses texts into single embeddings ranked by cosine similarity. While efficient for recall, this interface is brittle for identity-level matching: minimal compositional edits (negation, role swaps) flip meaning yet retain high similarity. Motivated by geometric results for unit-sphere cosine spaces (Kang et al., 2025), we test this retrieval-composition tension in text-only retrieval. Across four dual-encoder backbones, adding structure-targeted negatives consistently reduces zero-shot NanoBEIR retrieval (8-9% mean nDCG@10 drop on small backbones; up to 40% on medium ones), while only partially improving pooled-space separation. Treating pooled cosine as a recall interface, we then benchmark verifiers scoring token--token cosine maps. MaxSim (late interaction) excels at reranking but fails to reject structural near-misses, whereas a small Transformer over similarity maps reliably separates near-misses under end-to-end training.},
@@ -115,8 +115,8 @@
 @inproceedings{calbert-baral-et-al-2022,
   abbr      = {AAAI MAKE ’22},
   author    = {Aditeya Baral and
-               Aronya Baksy and
                Ansh Sarkar and
+               Aronya Baksy and
                Deeksha D and
                Ashwini M. Joshi},
   editor    = {Andreas Martin and
@@ -194,7 +194,6 @@ art F1-score on the Sentiment Analysis for Indian Languages (SAIL) dataset, with
     preview = "blackout_poetry.jpg",
     pages = "47--54",
     bibtex_show = {true},
-    code = {https://github.com/aditeyabaral/maple},
     dimensions = {true},
     google_scholar_id = {9yKSN-GCB0IC},
     abstract = {Poetry has morphed rapidly over changing
