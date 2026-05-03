@@ -57,13 +57,32 @@
   arXiv        = {2505.15623},
   abbr         = {Preprint},
   url          = {https://arxiv.org/abs/2505.15623},
-  abstract     = {Code-mixed languages, characterized by frequent within-sentence language transitions, present structural challenges that standard language models fail to address. In this work, we propose CMLFormer, an enhanced multi-layer dual-decoder Transformer with a shared encoder and synchronized decoder cross-attention, designed to model the linguistic and semantic dynamics of code-mixed text. CMLFormer is pre-trained on an augmented Hinglish corpus with switching point and translation annotations with multiple new objectives specifically aimed at capturing switching behavior, cross-lingual structure, and code-mixing complexity. Our experiments show that CMLFormer improves F1 score, precision, and accuracy over other approaches on the HASOC-2021 benchmark under selected pre-training setups. Attention analyses further show that it can identify and attend to switching points, validating its sensitivity to code-mixed structure. These results demonstrate the effectiveness of CMLFormer's architecture and multi-task pre-training strategy for modeling code-mixed languages.},
+  abstract     = {Large language models (LLMs) demonstrate considerable potential in various natural language tasks but face significant challenges in mathematical reasoning, particularly in executing precise, multi-step logic. However, current evaluation frameworks judge their performance solely based on accuracy, which only accounts for the final answer. This study explores these pitfalls by employing a novel evaluation framework. We propose an evaluation metric called the MAPLE score, which holistically quantifies reasoning misalignment by integrating error rates, redundancy, and validity.},
   preview      = {llmdomath.jpg},
   selected     = {true},
   bibtex_show  = {true},
   dimensions   = {true},
   code         = {https://github.com/can-llms-understand-math},
   google_scholar_id={IjCSPb-OGe4C},
+}
+
+@misc{ralev2026trainingcompositionalsensitivityreduces,
+  title          = {Training for Compositional Sensitivity Reduces Dense Retrieval Generalization},
+  author         = {Radoslav Ralev and Aditeya Baral and Iliya Zhechev and Jen Agarwal and Srijith Rajamohan},
+  year           = {2026},
+  eprint         = {2604.16351},
+  archivePrefix  = {arXiv},
+  primaryClass   = {cs.IR},
+  url            = {https://arxiv.org/abs/2604.16351},
+  abbr           = {ICLR Sci4DL '26},
+  arXiv          = {2604.16351},
+  html           = {https://openreview.net/forum?id=F5ueiEGP4l},
+  abstract       = {Dense retrieval compresses texts into single embeddings ranked by cosine similarity. While efficient for recall, this interface is brittle for identity-level matching: minimal compositional edits (negation, role swaps) flip meaning yet retain high similarity. Motivated by geometric results for unit-sphere cosine spaces (Kang et al., 2025), we test this retrieval-composition tension in text-only retrieval. Across four dual-encoder backbones, adding structure-targeted negatives consistently reduces zero-shot NanoBEIR retrieval (8-9% mean nDCG@10 drop on small backbones; up to 40% on medium ones), while only partially improving pooled-space separation. Treating pooled cosine as a recall interface, we then benchmark verifiers scoring token--token cosine maps. MaxSim (late interaction) excels at reranking but fails to reject structural near-misses, whereas a small Transformer over similarity maps reliably separates near-misses under end-to-end training.},
+  google_scholar_id = {Y0pCki6q_DkC},
+  preview        = {compositional_sensitivity.jpeg},
+  selected       = {true},
+  bibtex_show    = {true},
+  dimensions     = {true},
 }
 
 @inproceedings{chatbert-baral-et-al-2021,
@@ -92,7 +111,7 @@
 }
 
 @inproceedings{calbert-baral-et-al-2022,
-  abbr      = {AAAI-MAKE 2022},
+  abbr      = {AAAI MAKE '22},
   author    = {Aditeya Baral and
                Aronya Baksy and
                Ansh Sarkar and
@@ -133,7 +152,7 @@ art F1-score on the Sentiment Analysis for Indian Languages (SAIL) dataset, with
 }
 
 @inproceedings{imnet-baral-et-al-2021,
-  abbr      = {Intel (VSG) Research},
+  abbr      = {Intel VSG},
   author    = {Aditeya Baral and
                Anay Majee and
                Anbumani Subramanian},
@@ -157,7 +176,7 @@ art F1-score on the Sentiment Analysis for Indian Languages (SAIL) dataset, with
 }
 
 @inproceedings{maple-baral-etal-2021,
-    abbr = {ICNLSP 2021},
+    abbr = {ACL ICNLSP '21},
     title = "{MAPLE} {--} {MA}sking words to generate blackout Poetry using sequence-to-sequence {LE}arning",
     author = "Baral, Aditeya  and
       Jain, Himanshu  and
@@ -192,7 +211,7 @@ were also able to pass a Turing Test as well.},
 }
 
 @INPROCEEDINGS{kepler-bhamare-etal-2021,
-  abbr={IEEE CONIT 2021},
+  abbr={IEEE CONIT '21},
   author={Bhamare, Ameya Rajendra and Baral, Aditeya and Agarwal, Saarthak},
   booktitle={2021 International Conference on Intelligent Technologies (CONIT)}, 
   title={Analysis of Kepler Objects of Interest using Machine Learning for Exoplanet Identification}, 
