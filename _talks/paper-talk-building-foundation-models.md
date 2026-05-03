@@ -3,6 +3,7 @@ layout: talk
 title: "Building Foundation Models using Transformers"
 series: "Paper Talk Episode 4, Research et al."
 venue: PES University
+date: 2023-09-19
 year: 2023
 description: "Hands-on session on building and pre-training a BERT-based language model, covering advancements in representation learning for language and the importance of interdisciplinary research."
 materials:

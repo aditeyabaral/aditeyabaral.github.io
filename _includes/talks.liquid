@@ -11,9 +11,6 @@
               <a href="{{ talk.url | relative_url }}">{{ talk.title }}</a>
             </h3>
             <div class="course-meta">
-              {% if talk.series %}
-                <span class="course-term">{{ talk.series }}</span>
-              {% endif %}
               {% if talk.venue %}
                 <span class="course-instructor">{{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}</span>
               {% endif %}

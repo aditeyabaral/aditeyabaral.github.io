@@ -10,6 +10,9 @@ layout: page
       {% if page.venue %}
         <p><strong>Venue:</strong> {{ page.venue }}{% if page.location %}, {{ page.location }}{% endif %}</p>
       {% endif %}
+      {% if page.date %}
+        <p><strong>Date:</strong> {{ page.date | date: "%B %-d, %Y" }}</p>
+      {% endif %}
     </div>
   {% endif %}
 
