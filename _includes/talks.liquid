@@ -1,0 +1,31 @@
+{% if site.talks %}
+  <div class="courses">
+    {% assign talks_by_year = site.talks | sort: 'year' | reverse | group_by: 'year' %}
+
+    {% for year_group in talks_by_year %}
+      <h2 class="year">{{ year_group.name }}</h2>
+      <div class="course-list">
+        {% for talk in year_group.items %}
+          <div class="course-item">
+            <h3 class="course-title">
+              <a href="{{ talk.url | relative_url }}">{{ talk.title }}</a>
+            </h3>
+            <div class="course-meta">
+              {% if talk.series %}
+                <span class="course-term">{{ talk.series }}</span>
+              {% endif %}
+              {% if talk.venue %}
+                <span class="course-instructor">{{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}</span>
+              {% endif %}
+            </div>
+            {% if talk.description %}
+              <div class="course-description">{{ talk.description | markdownify }}</div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No talks available yet.</p>
+{% endif %}

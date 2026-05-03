@@ -81,8 +81,8 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{v.$code-bg-color-dark};
   --global-text-color: #{v.$grey-color-light};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$cyan-color};
-  --global-hover-color: #{v.$cyan-color};
+  --global-theme-color: #7eb8d4;
+  --global-hover-color: #7eb8d4;
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-light};
   --global-footer-text-color: #{v.$grey-color-dark};
@@ -103,14 +103,6 @@ html[data-theme="dark"] {
 
   code {
     color: #a1a1aa;
-  }
-
-  a,
-  table.table a {
-    color: #7eb8d4;
-    &:hover {
-      color: #7eb8d4;
-    }
   }
 
   --global-tip-block: #42b983;
