@@ -4,7 +4,7 @@
 "Preprint":
   color: "#6b7280"
 
-"ICLR Sci4DL '26":
+"ICLR Sci4DL ’26":
   url: https://openreview.net/group?id=ICLR.cc/2026/Workshop/Sci4DL
   color: "#6366f1"
 
@@ -12,7 +12,7 @@
   url: https://www.webex.ai/
   color: "#00bceb"
 
-"AAAI MAKE '22":
+"AAAI MAKE ’22":
   url: https://aaai.org/conference/spring-symposia/sss22/
   color: "#00438c"
 
@@ -20,10 +20,10 @@
   url: https://www.intel.com/content/www/us/en/research/overview.html
   color: "#0071c5"
 
-"ACL ICNLSP '21":
+"ACL ICNLSP ’21":
   url: https://icnlsp.org/
   color: "#e63946"
 
-"IEEE CONIT '21":
+"IEEE CONIT ’21":
   url: https://ieeexplore.ieee.org/xpl/conhome/9497779/proceeding
   color: "#00629b"
