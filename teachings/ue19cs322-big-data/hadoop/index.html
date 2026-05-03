@@ -1,0 +1,108 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Hadoop Installation Guide | Aditeya Baral </title> <meta name="author" content="Aditeya Baral"> <meta name="description" content="Aditeya Baral's academic portfolio. "> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/prof_pic.jpg?30a189b547da61d3495daad91118431c"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://aditeyabaral.github.io/teachings/ue19cs322-big-data/hadoop/"> <script src="/assets/js/theme.js?5fea5159b787642c1bbc1f334d60f883"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Aditeya</span> Baral </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/talks/">talks </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">cv </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Hadoop Installation Guide</h1> <p class="post-description"></p> </header> <article> <p>Make sure you execute everything from the home directory. Use <code class="language-plaintext highlighter-rouge">cd</code> to move to home directory.</p> <p>Note that the username here is <code class="language-plaintext highlighter-rouge">hadoop</code>. You need to set this to your system username (which should be your <code class="language-plaintext highlighter-rouge">SRN</code>).</p> <p>Change any <code class="language-plaintext highlighter-rouge">/home/hadoop/</code> to <code class="language-plaintext highlighter-rouge">/home/&lt;your username&gt;/</code></p> <p>Start with updating your system. Use the following commands</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd
+sudo apt update -y
+sudo apt upgrade -y
+</code></pre></div></div> <h2 id="install-java">Install Java</h2> <p>Since Hadoop 3.x supports Java 8 currently, we will install that version</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install openjdk-8-jdk -y
+</code></pre></div></div> <p>Check your Java versions with the following commands</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java -version
+javac -version
+</code></pre></div></div> <h2 id="setup-ssh">Setup SSH</h2> <p>We now need to setup a passwordless SSH</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install openssh-server openssh-client -y
+</code></pre></div></div> <h2 id="enable-passwordless-ssh">Enable passwordless SSH</h2> <p>Generate an SSH key pair and define the location is is to be stored in id_rsa. Then use the cat command to store the public key as authorized_keys in the ssh directory. Follow these commands with change in permissions.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub &gt;&gt; ~/.ssh/authorized_keys
+chmod 0600 ~/.ssh/authorized_keys
+</code></pre></div></div> <p>Verify passwordless SSH with</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh localhost
+</code></pre></div></div> <p>Type <code class="language-plaintext highlighter-rouge">exit</code> to quit SSH.</p> <h2 id="downloading-hadoop">Downloading Hadoop</h2> <p>Use any mirror link to get the download url. Download and extract hadoop using the following commands</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://downloads.apache.org/hadoop/common/hadoop-3.2.2/hadoop-3.2.2.tar.gz
+tar xzf hadoop-3.2.2.tar.gz
+</code></pre></div></div> <h2 id="single-node-deployment">Single Node Deployment</h2> <p>This setup, also called pseudo-distributed mode, allows each Hadoop daemon to run as a single Java process. A Hadoop environment is configured by editing a set of configuration files:</p> <ul> <li>bashrc</li> <li><a href="http://hadoop-env.sh" rel="external nofollow noopener" target="_blank">hadoop-env.sh</a></li> <li>core-site.xml</li> <li>hdfs-site.xml</li> <li>mapred-site-xml</li> <li>yarn-site.xml</li> </ul> <p>Before proceeding, we need to make a few directories for our namenodes and datanodes and also give them the required permissions.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd
+mkdir dfsdata
+mkdir tmpdata
+mkdir dfsdata/datanode
+mkdir dfsdata/namenode
+</code></pre></div></div> <p>Change permissions using the following commands. Remember to replace <code class="language-plaintext highlighter-rouge">hadoop</code> with your username.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo chown -R hadoop:hadoop /home/hadoop/dfsdata/
+sudo chown -R hadoop:hadoop /home/hadoop/dfsdata/datanode/
+sudo chown -R hadoop:hadoop /home/hadoop/dfsdata/namenode/
+</code></pre></div></div> <h3 id="setup-bashrc">Setup ~/.bashrc</h3> <p>Open .bashrc with the following command</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano ~/.bashrc
+</code></pre></div></div> <p>Scroll to the bottom of the file. Copy and paste these statements right at the bottom.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#Hadoop Related Options
+export HADOOP_HOME=/home/hadoop/hadoop-3.2.2
+export HADOOP_INSTALL=$HADOOP_HOME
+export HADOOP_MAPRED_HOME=$HADOOP_HOME
+export HADOOP_COMMON_HOME=$HADOOP_HOME
+export HADOOP_HDFS_HOME=$HADOOP_HOME
+export YARN_HOME=$HADOOP_HOME
+export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
+export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin
+export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
+</code></pre></div></div> <p>Press <code class="language-plaintext highlighter-rouge">Ctrl + S</code> to save and then <code class="language-plaintext highlighter-rouge">Ctrl + X</code> to quit. Apply the changes with</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source ~/.bashrc
+</code></pre></div></div> <h3 id="setup-hadoop-envsh">Setup <a href="http://hadoop-env.sh" rel="external nofollow noopener" target="_blank">hadoop-env.sh</a> </h3> <p>Open the file with</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano $HADOOP_HOME/etc/hadoop/hadoop-env.sh
+</code></pre></div></div> <p>Scroll down until you find the commented line <code class="language-plaintext highlighter-rouge"># export JAVA_HOME=</code>. Uncomment the line and replace the path with your Java path. The final line should look like this</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+</code></pre></div></div> <p>Save and exit the file as shown previously.</p> <h3 id="setup-core-sitexml">Setup core-site.xml</h3> <p>Open the file with</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano $HADOOP_HOME/etc/hadoop/core-site.xml
+</code></pre></div></div> <p>Replace the existing configuration tags with the following</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;configuration&gt;
+&lt;property&gt;
+  &lt;name&gt;hadoop.tmp.dir&lt;/name&gt;
+  &lt;value&gt;/home/hadoop/tmpdata&lt;/value&gt;
+&lt;/property&gt;
+&lt;property&gt;
+  &lt;name&gt;fs.default.name&lt;/name&gt;
+  &lt;value&gt;hdfs://127.0.0.1:9000&lt;/value&gt;
+&lt;/property&gt;
+&lt;/configuration&gt;
+</code></pre></div></div> <p>Save and exit the file.</p> <h3 id="setup-hdfs-sitexml">Setup hdfs-site.xml</h3> <p>Open the file using</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano $HADOOP_HOME/etc/hadoop/hdfs-site.xml
+</code></pre></div></div> <p>Replace the existing configuration tags with the following</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;configuration&gt;
+&lt;property&gt;
+  &lt;name&gt;dfs.name.dir&lt;/name&gt;
+  &lt;value&gt;/home/hadoop/dfsdata/namenode&lt;/value&gt;
+&lt;/property&gt;
+&lt;property&gt;
+  &lt;name&gt;dfs.data.dir&lt;/name&gt;
+  &lt;value&gt;/home/hadoop/dfsdata/datanode&lt;/value&gt;
+&lt;/property&gt;
+&lt;property&gt;
+  &lt;name&gt;dfs.replication&lt;/name&gt;
+  &lt;value&gt;1&lt;/value&gt;
+&lt;/property&gt;
+&lt;/configuration&gt;
+</code></pre></div></div> <p>To create a multi-node setup, change the <code class="language-plaintext highlighter-rouge">&lt;value&gt;&lt;/value&gt;</code> attribute of <code class="language-plaintext highlighter-rouge">dfs.replication</code> to the number of nodes desired. Save and exit the file after making all the changes.</p> <h3 id="setup-mapred-sitexml">Setup mapred-site.xml</h3> <p>Open the file with</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano $HADOOP_HOME/etc/hadoop/mapred-site.xml
+</code></pre></div></div> <p>Replace the existing configuration tags with the following</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;configuration&gt; 
+&lt;property&gt; 
+  &lt;name&gt;mapreduce.framework.name&lt;/name&gt; 
+  &lt;value&gt;yarn&lt;/value&gt; 
+&lt;/property&gt; 
+&lt;/configuration&gt;
+</code></pre></div></div> <p>Save and exit the file.</p> <h3 id="setup-yarn-sitexml">Setup yarn-site.xml</h3> <p>Open the file with</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano $HADOOP_HOME/etc/hadoop/yarn-site.xml
+</code></pre></div></div> <p>Replace the existing configuration tags with the following</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;configuration&gt;
+&lt;property&gt;
+  &lt;name&gt;yarn.nodemanager.aux-services&lt;/name&gt;
+  &lt;value&gt;mapreduce_shuffle&lt;/value&gt;
+&lt;/property&gt;
+&lt;property&gt;
+  &lt;name&gt;yarn.nodemanager.aux-services.mapreduce.shuffle.class&lt;/name&gt;
+  &lt;value&gt;org.apache.hadoop.mapred.ShuffleHandler&lt;/value&gt;
+&lt;/property&gt;
+&lt;property&gt;
+  &lt;name&gt;yarn.resourcemanager.hostname&lt;/name&gt;
+  &lt;value&gt;127.0.0.1&lt;/value&gt;
+&lt;/property&gt;
+&lt;property&gt;
+  &lt;name&gt;yarn.acl.enable&lt;/name&gt;
+  &lt;value&gt;0&lt;/value&gt;
+&lt;/property&gt;
+&lt;property&gt;
+  &lt;name&gt;yarn.nodemanager.env-whitelist&lt;/name&gt;   
+  &lt;value&gt;JAVA_HOME,HADOOP_COMMON_HOME,HADOOP_HDFS_HOME,HADOOP_CONF_DIR,CLASSPATH_PERPEND_DISTCACHE,HADOOP_YARN_HOME,HADOOP_MAPRED_HOME&lt;/value&gt;
+&lt;/property&gt;
+&lt;/configuration&gt;
+</code></pre></div></div> <p>Save and exit the file.</p> <h2 id="format-hdfs-namenode">Format HDFS NameNode</h2> <p>Before we start Hadoop for the first time, we need to format the namenode. Use the following command</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hdfs namenode -format
+</code></pre></div></div> <p>A <code class="language-plaintext highlighter-rouge">SHUTDOWN</code> message will signify the end of the formatting process.</p> <p>Congratulations! You have now installed Hadoop!</p> <h2 id="starting-hadoop">Starting Hadoop</h2> <p>Navigate execute the following commands</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd hadoop-3.2.2/sbin/
+./start-all.sh
+</code></pre></div></div> <p>Type <code class="language-plaintext highlighter-rouge">jps</code> to find all the Java Processes. You should see 6 total processes, including the <code class="language-plaintext highlighter-rouge">jps</code> process. Note that the order of the items and the process IDs will be different.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2994 DataNode
+3219 SecondaryNameNode
+3927 Jps
+3431 ResourceManager
+2856 NameNode
+3566 NodeManager
+</code></pre></div></div> <p>You can alternatively start the nodes and then the YARN resource manager manually using</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./start-dfs.sh
+./start-yarn.sh
+</code></pre></div></div> <h2 id="access-hadoop-from-browser">Access Hadoop from Browser</h2> <p>You can access Hadoop on localhost on the following ports</p> <ul> <li>NameNode - <a href="http://localhost:9870" rel="external nofollow noopener" target="_blank">http://localhost:9870</a> </li> <li>DataNode - <a href="http://localhost:9864" rel="external nofollow noopener" target="_blank">http://localhost:9864</a> </li> <li>YARN Manager - <a href="http://localhost:8088" rel="external nofollow noopener" target="_blank">http://localhost:8088</a> </li> </ul> <p>Remember to stop all processes when you are done with your work.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./stop-all.sh
+</code></pre></div></div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Aditeya Baral. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Last updated: May 03, 2026. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?c15de51d4bb57887caa2c21988d97279"></script> <script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script> <script src="/assets/js/search-data.js"></script> <script src="/assets/js/shortcut-key.js?ccc841c459bfc0e64c1c2b5acd10df02"></script> </body> </html>
