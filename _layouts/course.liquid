@@ -5,7 +5,7 @@ layout: page
   {% if page.instructor or page.term or page.location or page.time %}
     <div class="course-info">
       {% if page.instructor %}
-        <p><strong>Instructor:</strong> {{ page.instructor }}</p>
+        <p><strong>Instructor:</strong> {{ page.instructor | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       {% endif %}
 
       {% if page.term %}
@@ -29,7 +29,6 @@ layout: page
     <table class="table table-sm table-responsive">
       <thead>
         <tr>
-          <th>Week</th>
           <th>Date</th>
           <th>Topic</th>
           <th>Materials</th>
@@ -38,7 +37,6 @@ layout: page
       <tbody>
         {% for entry in page.schedule %}
           <tr>
-            <td>{{ entry.week }}</td>
             <td>{{ entry.date }}</td>
             <td>
               {% if entry.topic %}
