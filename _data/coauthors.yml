@@ -1,14 +1,20 @@
+"agarwal":
+  - firstname: ["Jen"]
+    url: https://scholar.google.com/citations?user=x5dXQx8AAAAJ
+  - firstname: ["Saarthak"]
+    url: https://www.linkedin.com/in/saarthak-agarwal/
+
 "ajith":
   - firstname: ["Allen George", "Allen"]
     url: https://scholar.google.com/citations?user=QZTRsLYAAAAJ
 
-"agarwal":
-  - firstname: ["Jen"]
-    url: https://scholar.google.com/citations?user=x5dXQx8AAAAJ
-
 "baig":
   - firstname: ["Yusuf", "Yusuf Mirza"]
     url: https://scholar.google.com/citations?user=aSqmtGAAAAAJ
+
+"baksy":
+  - firstname: ["Aronya"]
+    url: https://scholar.google.com/citations?user=SX0kE9MAAAAJ
 
 "bhanja":
   - firstname: ["Mrityunjay Abhijeet", "Mrityunjay"]
@@ -18,6 +24,14 @@
   - firstname: ["Ameya Rajendra", "Ameya"]
     url: https://scholar.google.com/citations?user=QlklRLIAAAAJ
 
+"d":
+  - firstname: ["Deeksha"]
+    url: https://scholar.google.com/citations?user=VmxhYFkAAAAJ
+
+"dahiya":
+  - firstname: ["Rijul"]
+    url: https://rijul.co/
+
 "jain":
   - firstname: ["Himanshu"]
     url: https://scholar.google.com/citations?user=LvPghQsAAAAJ
@@ -26,9 +40,25 @@
   - firstname: ["Ayush Rajesh", "Ayush"]
     url: https://scholar.google.com/citations?user=l1LOVTMAAAAJ
 
+"joshi":
+  - firstname: ["Ashwini M.", "Ashwini"]
+    url: https://scholar.google.com/citations?user=Ynn_2iYAAAAJ
+
+"majee":
+  - firstname: ["Anay"]
+    url: https://scholar.google.com/citations?user=VECbcJwAAAAJ
+
 "nayak":
   - firstname: ["Roshan"]
     url: https://scholar.google.com/citations?user=qR-6lfgAAAAJ
+
+"r":
+  - firstname: ["Dr. Mamatha H", "Mamatha H"]
+    url: https://scholar.google.com/citations?user=WMQscEUAAAAJ
+
+"rajamohan":
+  - firstname: ["Srijith"]
+    url: https://srijithr.gitlab.io/
 
 "ralev":
   - firstname: ["Radoslav"]
@@ -45,6 +75,14 @@
 "sarkar":
   - firstname: ["Ansh"]
     url: https://www.linkedin.com/in/sarkaransh/
+
+"subramanian":
+  - firstname: ["Anbumani"]
+    url: https://scholar.google.com/citations?user=s1Xm-NsAAAAJ
+
+"venkatesh":
+  - firstname: ["Dilip"]
+    url: https://scholar.google.com/citations?user=WfbWimgAAAAJ
 
 "zhechev":
   - firstname: ["Iliya", "Iliya Sotirov"]

@@ -1,8 +1,10 @@
 "Poster":
   color: "#8b5cf6"
+  text_color: "#ffffff"
 
 "Preprint":
   color: "#6b7280"
+  text_color: "#ffffff"
 
 "ICLR Sci4DL ’26":
   url: https://openreview.net/group?id=ICLR.cc/2026/Workshop/Sci4DL
