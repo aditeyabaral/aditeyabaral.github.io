@@ -24,4 +24,4 @@ I am interested in the principles underlying how machines learn, understand, and
 
 If you'd like to chat about NLP or ML research, get advice on graduate school applications, or are looking for mentoring, I'm always happy to hear from you --- just drop me an email!
 
-On this site, you may find my [research](/publications/), courses I've [assisted](/teaching/), and [talks](/talks/) I've given.
+On this site, you can find my [research](/publications/), courses I've [assisted](/teaching/), and [talks](/talks/) I've given.
