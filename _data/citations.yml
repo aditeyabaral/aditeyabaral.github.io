@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-02'
+  last_updated: '2026-05-27'
 papers:
   n5tqnzUAAAAJ:9yKSN-GCB0IC:
     citations: 0
@@ -13,6 +13,10 @@ papers:
     citations: 2
     title: 'Cmlformer: A dual decoder transformer with switching point learning for code-mixed language modeling'
     year: '2025'
+  n5tqnzUAAAAJ:W7OEmFMy1HYC:
+    citations: 2
+    title: Can llms understand math? exploring the pitfalls in mathematical reasoning
+    year: '2025'
   n5tqnzUAAAAJ:Y0pCki6q_DkC:
     citations: 0
     title: Training for Compositional Sensitivity Reduces Dense Retrieval Generalization
@@ -22,7 +26,7 @@ papers:
     title: CalBERT-Code-Mixed Adaptive Language Representations Using BERT.
     year: '2022'
   n5tqnzUAAAAJ:u5HHmVD_uO8C:
-    citations: 11
+    citations: 12
     title: Analysis of kepler objects of interest using machine learning for exoplanet identification
     year: '2021'
   n5tqnzUAAAAJ:zYLM7Y9cAGgC:
