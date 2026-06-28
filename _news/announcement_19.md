@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my `Bachelors of Technology` at PES University's `Department of Computer Science and Engineering`.
+Started my `Bachelor of Technology` at PES University's `Department of Computer Science and Engineering`.

@@ -1,0 +1,344 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper, 11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\input{glyphtounicode}
+\usepackage[
+	% margin=2in,
+	top=0.7in,
+	bottom=0.7in,
+	left=0.65in,
+	right=0.65in
+]{geometry}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{ \vspace{-4pt}\scshape\raggedright\large }{}{0em}{}[
+\color{black}
+\titlerule
+\vspace{-5pt}
+]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{ \item\small{ {#1 \vspace{-2pt}} } }
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-2pt}
+\item
+\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+	\textbf{#1}       & #2                 \\
+	\textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}
+\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{ \item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textit{\small#1} & \textit{\small #2} \\
+\end{tabular*}
+\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{ \item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\small#1 & #2 \\
+\end{tabular*}
+\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}
+\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}
+\vspace{-5pt}}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=cyan,
+	% urlcolor=[RGB]{153 51 51},
+	urlcolor=NavyBlue,
+	pdftitle={Aditeya Baral Resume},
+}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+	\newcounter{boxlblcounter}
+	\newcommand{\makeboxlabel}[1]{\fbox{#1.}\hfill}% \hfill fills the label box
+	\newenvironment{boxlabel}{\begin{list} {\arabic{boxlblcounter}} {\usecounter{boxlblcounter} \setlength{\labelwidth}{3em} \setlength{\labelsep}{0em} \setlength{\itemsep}{2pt} \setlength{\leftmargin}{1.5cm} \setlength{\rightmargin}{2cm} \setlength{\itemindent}{0em} \let\makelabel=\makeboxlabel }
+	}{\end{list}}
+
+	%----------HEADING----------
+
+	\begin{center}
+		\textbf{\Huge \scshape Aditeya Baral} \\
+		\vspace{1pt}
+		\small \href{https://wa.me/15512638608?text=Hello!+I'm+<your+name>%2C+and+I've+found+you+via+your+resume.+I+am+reaching+out+because+<...>}{\underline{+1(551)263-8608}} $|$ \href{mailto:aditeyabaral@nyu.edu}{\underline{aditeyabaral@nyu.edu}} $|$
+		\href{https://linkedin.com/in/aditeyabaral}{\underline{linkedin.com/in/aditeyabaral}}
+		$|$
+		% \href{https://github.com/aditeyabaral}{\underline{github.com/aditeyabaral}} $|$
+		\href{https://aditeyabaral.com/}{\underline{aditeyabaral.com}} $|$
+		\href{https://bit.ly/aditeya-gscholar}{\underline{Google Scholar}}
+	\end{center}
+
+	%-----------EDUCATION-----------
+	\section{Education}
+
+	\resumeSubHeadingListStart
+
+	\resumeSubheading {New York University, Courant Institute of Mathematical Sciences}{New York City, USA}
+	{Master of Science in Computer Science; GPA -- 3.87/4.00}{Sep 2024 -- May 2026}
+	\resumeItem{\textit{\textbf{Concentration}}: Artificial Intelligence}
+
+	\resumeSubheading {PES University}{Bengaluru, India}
+	{Bachelor of Technology in Computer Science \& Engineering; GPA -- 8.71/10.00}{Aug 2018 -- May 2022}
+	\resumeItem{\textit{\textbf{Specialization}}: Machine Intelligence \& Data Science}
+
+	\resumeSubHeadingListEnd
+
+	%----------- EXPERIENCE-----------
+	\section{Experience}
+	\resumeSubHeadingListStart
+	% Ensure the most recent one is in the present tense and remains in the past tense
+
+	\resumeSubheading {Redis}{San Francisco, USA}
+	{Applied Research Scientist Intern, Redis LangCache; Advisor: Srijith Rajamohan}{June 2025 -- Dec 2025}
+	\resumeItemListStart
+
+	\resumeItem{Introduced \textbf{Precision–Cache Hit Ratio (P-CHR)} and \textbf{Calibration Retention Rate (CRR)}, two \textit{cache-aware metrics} for \textbf{\href{https://redis.io/langcache/}{Redis LangCache}}, reframing semantic-cache model selection as a \textit{calibration problem} rather than a ranking one.}
+
+	\resumeItem{Curated and open-sourced \textbf{\href{https://huggingface.co/collections/redis/langcache-datasets}{LangCache SentencePairs (v1-v3)}}, a large-scale dataset family with \textbf{1M to 40M} sentence pairs across diverse paraphrase, STS, QA, and adversarial sources for robust semantic-caching fine-tuning.}
+
+	\resumeItem{Fine-tuned and deployed \textbf{\href{https://huggingface.co/redis/langcache-embed-v3-small}{LangCache-Embed-v3}}, a domain-specific bi-encoder trained with an \textit{ArcFace contrastive objective}, leading all open-source retrievers offline and outperforming larger general-purpose models even without re-ranking.}
+
+	\resumeItem{Open-sourced the \textbf{\href{https://huggingface.co/collections/redis/langcache-re-ranker-v1}{LangCache ReRanker v1}}/\textbf{\href{https://huggingface.co/collections/redis/langcache-re-ranker-v2}{v2}} cross-encoder families with \textit{BCE} and \textit{MNRL} objectives at two training scales, isolating the effect of objective vs. scale on calibration and enabling application-specific behavior.}
+
+	\resumeItem{Built a comprehensive \textit{evaluation framework} for customer onboarding with a large-scale study of customer data and model baselines across offline and deployment settings, using a two-stage \textbf{\href{https://docs.redisvl.com/en/latest/}{RedisVL}} K-NN retrieval and re-ranking pipeline.}
+
+	\resumeItem{Demonstrated that the highest-\textbf{PR-AUC} models are often the \textit{worst} in deployment, and that re-ranking rarely improves a strong domain retriever, overturning the standard practice in semantic-cache model selection.}
+
+	\resumeItem{Supported \textit{downstream integration} and development of \textbf{\href{https://lmcache.ai/}{LMCache}} by \textit{building prototypes} and \textit{benchmarking performance} with \textbf{Redis} as an \textit{in-memory KV store}, demonstrating latency and throughput gains.}
+
+	\resumeItemListEnd
+
+	\resumeSubheading {Computational Intelligence, Vision, and Robotics (CILVR) Lab}{New York City, USA}
+	{Research Assistant; Advisors: Shauli Ravfogel, Tal Linzen}{May 2025 -- May 2026}
+	\resumeItemListStart \resumeItem{Investigated \textit{arithmetic circuit dynamics} in language models when operators are redefined in-context by analyzing \textit{activation representations} and \textit{attention patterns} across transformer layers.}
+	\resumeItem{Trained tiny ($\sim$3M params) \textbf{LLaMA}-style transformers on arithmetic operations under \textit{operator overloading} to test whether transformers reuse circuits across semantically related tasks.}
+	\resumeItem{Developed an \textit{activation-extraction and causal-attribution pipeline} pairing neuron selection with \textbf{Activation Patching}, \textbf{Direct Logit Attribution}, and \textbf{Fourier probes} to separate causally necessary components from merely predictive ones.}
+	\resumeItem{Identified and characterized a \textit{two-tier circuit structure} across a model's depth and breadth, showing transformers organize computation around \textit{semantic operations rather than surface symbols}.}
+	\resumeItemListEnd
+
+	\resumeSubheading {Computation and Psycholinguistics Lab}{New York City, USA} {Research Assistant; Advisors: Jackson Petty, Tal Linzen}{May 2025 -- August 2025}
+	\resumeItemListStart \resumeItem{Evaluated LLMs on \textit{compositional generalization} and \textit{instruction synthesis} by studying their ability to translate synthetic \textit{Context-Free Grammars (CFGs)} into conforming strings.}
+
+	\resumeItem{Analyzed model outputs in \textit{few- and zero-shot settings} to assess \textit{grammatical conformity} and uncover \textit{generation strategies} used during translation.}
+	\resumeItemListEnd
+
+	\resumeSubheading {Cisco Systems}{Bengaluru, India} {Big Data and Applied AI Engineer, Webex Media Quality Analytics}{July 2022 -- July 2024}
+	\resumeItemListStart \resumeItem{Instruction fine-tuned LLMs like \textbf{Mistral} and \textbf{Llama-2} on-prem to enable \textit{secure} and \textit{cost-effective} AI solutions such as \textit{translation} and \textit{RAG} for engineers and customers, \textit{cutting third-party dependency costs by} \textbf{30\%}.}
+
+	\resumeItem{Led the initiative to build a novel \textit{pre-training algorithm} for conversational data using \textbf{PyTorch} and \textbf{HuggingFace}, achieving a \textbf{40\%} \textit{performance gain} over standard approaches at benchmark fine-tuning tasks.}
+
+	\resumeItem{Developed the \textbf{Webex Contextual Search} engine and \textit{improved searching, ranking, recommendations} and \textit{topic modelling} by \textbf{75\%} with \textbf{$<$10\%} increased overhead latency.}
+
+	\resumeItem{Integrated \textbf{OpenAI} APIs and on-prem LLMs with the \textbf{\href{https://www.webex.ai/?socialshare=VideoOverlayPlayer}{Webex AI Assistant}} for \textbf{15M+} worldwide users to add \textit{auto-replies}, \textit{summarisation}, \textit{querying} and \textit{action-item extraction} to message threads and meeting transcripts.}
+
+	\resumeItem{Developed and deployed streaming jobs in \textbf{Scala} and \textbf{Flink} to process \textbf{1M+ reports/min} and compute \textbf{1200+} \textit{real-time metrics} from Calls and Meetings.}
+
+	\resumeItem{Applied \textit{statistical modelling} techniques to investigate and report \textit{media quality insights} to downstream consumers, \textit{reducing errors by} \textbf{30\%} \textit{and analysis time by} \textbf{15 hrs/week} per team member.}
+
+	\resumeItem{Led the development of \textit{real-time ($<$1 min) auditing pipelines} using \textbf{Kafka} and \textbf{Python} to ensure \textit{per-minute data consistency} between streaming jobs and \textbf{Iceberg} and \textbf{Pinot} data stores, \textit{reducing manual effort by} \textbf{$>$80\%}.}
+
+	\resumeItem{Built graphs and dashboards on the \textbf{Webex Media Quality Analytics Dashboard} using \textbf{Grafana} and \textbf{Kibana} to set up alerts and KPIs for \textbf{20,000+} clients and customers.}
+	\resumeItemListEnd
+
+	\resumeSubSubheading{Big Data Engineering Intern, Webex VideoMesh Analytics}{Jan 2022 -- June 2022}
+	\resumeItemListStart \resumeItem{Migrated the \textbf{Meetings Analytics Engine} from Java and Spark to \textbf{Scala} and \textbf{Flink} to scale up to \textbf{1M+ reports/min} and significantly \textit{improve real-time report generation} by over \textbf{40\%}.}
+
+	\resumeItem{Built \textbf{\href{https://developer.webex.com/docs/api/v1/video-mesh}{VideoMesh Developer APIs}} using \textbf{Java} and globally rolled them out for \textbf{30,000+ enterprises} with \textbf{\href{https://github.com/CiscoDevNet/video-mesh-api-client}{customer-facing applications}}.}
+	\resumeItemListEnd
+
+	\resumeSubheading {Intel Corporation}{Bengaluru, India} {Applied Research Scientist Intern, Intel VSG; Advisors: Anay Majee, Anbumani Subramanian}{Aug 2021 -- Dec 2021}
+	\resumeItemListStart \resumeItem{Explored \textbf{Few-Shot Learning Object Detection (FSOD)} techniques to reduce \textit{catastrophic forgetting} in constrained and heterogeneous driving environments.}
+
+	\resumeItem{Investigated and designed novel \textit{representation learning} and \textit{attention mechanisms} to learn \textit{inter/intra-object relationships} using \textbf{PyTorch}.}
+
+	\resumeItem{Outperformed existing approaches at the time on base and novel classes by \textbf{0.2 mAP} and \textbf{3 mAP} on the \textit{Few-Shot India Driving Dataset}, a benchmark for FSOD.}
+	\resumeItemListEnd
+
+	\resumeSubheading {Center for Cloud Computing and Big Data}{Bengaluru, India} {Research Assistant; Advisor: KV Subramaniam}{May 2020 -- July 2020}
+	\resumeItemListStart \resumeItem{Compiled and used \textbf{TailBench} to \textit{simulate and profile} application loads, monitor performance, and analyse results.}
+
+	\resumeItem{Explored ways to \textit{reduce tail latencies} in latency-critical applications such as translation and image recognition.}
+	\resumeItemListEnd
+
+	\resumeSubHeadingListEnd
+
+	%-----------PREPRINTS-----------
+	\section{Preprints and Projects}
+
+	\begin{enumerate}[label={[\arabic{*}]}]
+		\item \textbf{\href{https://arxiv.org/abs/2606.19719}{Closing the
+			Calibration Gap in Semantic Caching}} \\ \textit{Authors: \underline{Aditeya Baral}*,
+			Radoslav Ralev*, Iliya Sotirov Zhechev, Srijith Rajamohan, Jen Agarwal}
+
+		\item \textbf{\href{https://aditeyabaral.com/assets/pdf/When_+_Means_-_poster.pdf}{When
+			`$+$' Means `$-$'? Probing Arithmetic Circuits Under Symbol Redefinition}}
+			\\ \textit{Authors: \underline{Aditeya Baral}, Allen George Ajith, Shauli
+			Ravfogel}
+
+		\item \textbf{\href{https://arxiv.org/abs/2505.15623}{Can LLMs \textit{understand}
+			Math? Exploring the Pitfalls in Mathematical Reasoning}} \\ \textit{Authors:
+			Tiasa Singha Roy*, \underline{Aditeya Baral}*, Ayush Rajesh Jhaveri, Yusuf
+			Baig}
+
+		\item \textbf{\href{https://arxiv.org/abs/2505.12587}{CMLFormer -- A Dual Decoder
+			Transformer with Switching Point Learning for Code-Mixed Language Modeling}}
+			\\ \textit{Authors: \underline{Aditeya Baral}, Allen George Ajith, Roshan
+			Nayak, Mrityunjay Abhijeet Bhanja}
+
+		\item \textbf{\href{https://aditeyabaral.com/assets/pdf/Patch_and_Control__Steering_Behavior_of_Large_Vision_Language_Models_via_Latent_Activations.pdf}{Patch
+			and Control -- Steering Behavior of Large Vision-Language Models via Latent
+			Activations}} \\ \textit{Authors: \underline{Aditeya Baral}, Rijul Dahiya,
+			Dilip Venkatesh}
+	\end{enumerate}
+
+	%-----------PUBLICATIONS-----------
+	\section{Papers and Publications}
+
+	\begin{enumerate}[label={[\arabic{*}]}]
+		\item \textbf{\href{https://openreview.net/forum?id=F5ueiEGP4l}{Training for
+			Compositional Sensitivity Reduces Dense Retrieval Generalization}} \\
+			\textit{ICLR 2026, Sci4DL} \\ \textit{Authors: Radoslav Ralev, \underline{Aditeya Baral},
+			Iliya Sotirov Zhechev, Jen Agarwal, Srijith Rajamohan}
+
+		\item \textbf{\href{https://aditeyabaral.com/publications/}{ChatBERT -- Multi-task
+			approach to Pre-Training for Structured Conversations}} \\ \textit{Webex
+			AI 2023} \\ \textit{Authors: \underline{Aditeya Baral} (Work done as part of
+			Cisco Webex AI Research)}
+
+		\item \textbf{\href{https://ceur-ws.org/Vol-3121/short3.pdf}{CalBERT -- Code-mixed
+			Adaptive Language Representations using BERT}} \\ \textit{AAAI 2022, MAKE}
+			\\ \textit{Authors: \underline{Aditeya Baral}, Aronya Baksy, Ansh Sarkar, Deeksha
+			D, Ashwini M Joshi}
+
+		\item \textbf{\href{https://aditeyabaral.com/assets/pdf/Information_Maximization_to_Overcome_Catastrophic_Forgetting_in_Few_Shot_Object_Detection.pdf}{Information
+			Maximization to Overcome Catastrophic Forgetting in Few-Shot Object
+			Detection}} \\ \textit{Intel VSG 2021} \\ \textit{Authors: \underline{Aditeya Baral},
+			Anay Majee, Anbumani Subramanian}
+
+		\item \textbf{\href{https://aclanthology.org/2021.icnlsp-1.6/}{MAPLE -- MAsking
+			words to generate blackout Poetry using Seq2Seq LEarning}} \\ \textit{ACL
+			2021, ICNLSP} \\ \textit{Authors: \underline{Aditeya Baral}, Himanshu Jain,
+			Deeksha D, Mamatha H R}
+
+		\item \textbf{\href{https://ieeexplore.ieee.org/document/9498407}{Analysis
+			of Kepler Objects of Interest using ML for Exoplanet Identification}} \\
+			\textit{IEEE CONIT 2021} \\ \textit{Authors: Ameya Rajendra Bhamare,
+			\underline{Aditeya Baral}, Saarthak Agarwal}
+	\end{enumerate}
+
+	%-----------TEACHING EXPERIENCE-----------
+	\section{Teaching Experience}
+	\resumeSubHeadingListStart
+	% Ensure the most recent one is in the present tense and remains in the past tense
+	\resumeSubheading {Teaching Assistant, CS322: Big Data}{Bengaluru, India}
+	{PES University; Faculty: KV Subramaniam, Prafullata K Auradkar, Animesh Giri}{June 2021 -- Dec 2021}
+
+	\resumeItem{Designed and graded coursework, assignments and projects, and delivered hands-on sessions on Hadoop and Spark for a class of \textbf{600+} enrolled students for the undergraduate Big Data course.}
+
+	\resumeSubHeadingListEnd
+
+	%----------ACHIEVEMENTS--------
+
+	\section{Awards and Scholarships}
+
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}cr}
+		\textbf{Webex Analytics Datathon}, Cisco Systems                                                                                                                                  & $2^{nd}$ / 20+ teams                            & \textit{2024} \\
+		\textbf{Webex IDEA Hackathon}, Cisco Systems                                                                                                                                      & $1^{st}$ / 300+ teams                           & \textit{2023} \\
+		\textbf{Webex Playtime Hackathon}, Cisco Systems                                                                                                                                  & Top 20 Globally \& Regional Winner / 300+ teams & \textit{2023} \\
+		\textbf{Undergraduate Researcher Award}, PES University                                                                                                                           & One among 900+ students                         & \textit{2022} \\
+		\textbf{Prof. CNR Rao, MRD \& DAC Scholarship Awards}                                                                                                                             & Top 20\% among 900+ students                    & \textit{2022} \\
+		\textbf{Finalist}, Intel Technovation, Flipkart, IBM, IISc Hackathons                                                                                                             & One among 200+ teams                            & \textit{2022} \\
+		\textbf{\href{http://bangaloremirror.indiatimes.com/bangalore/others/these-12th-graders-want-app-solutely-no-garbage/articleshow/57619336.cms}{National newspaper coverage}}, ToI & Remodelled garbage collection tracking in BLR   & \textit{2017} \\
+	\end{tabular*}
+
+	%-----------SKILLS-----------
+	\section{Skills}
+	\begin{itemize}[leftmargin=0.15in, label={}]
+		\small{\item{ \textbf{Languages}{: Python, Scala, Java, C/C++, Groovy, SQL, \LaTeX} \\ \textbf{ML/Stats Libraries}{: PyTorch, Tensorflow, HuggingFace, WandB, vLLM, FAISS, pandas, NumPy, scikit-learn, matplotlib} \\ \textbf{AI/ML Techniques}{: Representation Learning, Mechanistic Interpretability, Transfer Learning, Language Models, RAG} \\ \textbf{Big Data/Cloud}{: Hadoop, Kafka, Zookeeper, Spark, Flink, Iceberg, Pinot, Redis, ELK} \\ \textbf{Frameworks/Tools}{: Git, GitHub, Jenkins, Docker, Kubernetes, FastAPI, Grafana, PSQL, MongoDB, AWS, Linux} \\ }}
+	\end{itemize}
+
+	%----------VOLUNTEERING EXPERIENCE--------
+	\section{Services and Volunteering Experience}
+
+	\resumeSubHeadingListStart
+
+	\resumeSubheading {Research Advisor, Summer Internship -- Center for Cloud Computing and Big Data}{Bengaluru, India}
+	{PES University}{June 2026 -- Aug 2026} \resumeItem{Led the \textit{mechanistic interpretability group}, advising 2 teams on distinct projects that train small transformers to study \textit{grokking}, activation patching, and \textit{circuit-level learning and inference dynamics}.}
+
+	\resumeSubheading {Speaker, Guest Lecture -- Building Foundation Models using Transformers}{Bengaluru, India}
+	{PES University}{Sep 2023} \resumeItem{Delivered a guest lecture to undergraduate students on the advancements in representation learning techniques for language and highlighted the importance of interdisciplinary research.}
+
+	\resumeSubHeadingListEnd
+
+	%-------------------------------------------
+\end{document}

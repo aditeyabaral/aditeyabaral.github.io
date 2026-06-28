@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started working as an `Applied Research Scientist Intern` at `Intel VSG`, India, where I am advised by Dr. [Anbumani Subramanian](https://sites.google.com/view/anbumani/) and [Anay Majee](http://anaymajee.me/).
+Started working as an `Applied Research Scientist Intern` at `Intel VSG`, India, where I am advised by [Anbumani Subramanian](https://sites.google.com/view/anbumani/) and [Anay Majee](http://anaymajee.me/).
