@@ -2,7 +2,7 @@
 layout: course
 title: "UE19CS322: Big Data"
 description: Undergraduate course covering distributed computing, large-scale data processing, and big data frameworks including Hadoop and Spark. Topics included MapReduce, HDFS, iterative graph algorithms, Spark DataFrames, and Spark Streaming with MLlib.
-instructor: "Dr. KV Subramaniam, Dr. Prafullata K Auradkar, Prof. Animesh Giri"
+instructor: "KV Subramaniam, Prafullata K Auradkar, Animesh Giri"
 year: 2021
 term: Fall
 location: PES University, Bengaluru
@@ -63,7 +63,7 @@ schedule:
 
 ## Role
 
-Teaching Assistant under [Dr. KV Subramaniam](https://www.linkedin.com/in/kalsubra/), [Dr. Prafullata K Auradkar](https://www.linkedin.com/in/prafullata-auradkar-23882a57/), and [Prof. Animesh Giri](https://www.linkedin.com/in/animesh-giri-15272531) at PES University during the Fall 2021 semester. Part of a four-person TA team alongside [Vishesh Purnananda](https://www.linkedin.com/in/vishesh-p17/), [Ansh Sarkar](https://www.linkedin.com/in/sarkaransh/), and [Pavan Appanna](https://www.linkedin.com/in/pavan-a/).
+Teaching Assistant under [KV Subramaniam](https://www.linkedin.com/in/kalsubra/), [Prafullata K Auradkar](https://www.linkedin.com/in/prafullata-auradkar-23882a57/), and [Animesh Giri](https://www.linkedin.com/in/animesh-giri-15272531) at PES University during the Fall 2021 semester. Part of a four-person TA team alongside [Vishesh Purnananda](https://www.linkedin.com/in/vishesh-p17/), [Ansh Sarkar](https://www.linkedin.com/in/sarkaransh/), and [Pavan Appanna](https://www.linkedin.com/in/pavan-a/).
 
 ## Responsibilities
 
