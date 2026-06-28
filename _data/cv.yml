@@ -8,7 +8,7 @@ cv:
   sections:
     Education:
       - studyType: Master of Science in Computer Science
-        institution: New York University, Courant Institute of Mathematical Sciences
+        institution: New York University, Courant Institute of Mathematics, Computing and Data Science
         location: New York City, USA
         start_date: "Sep '24"
         end_date: "May '26"
