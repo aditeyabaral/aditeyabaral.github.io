@@ -4,9 +4,9 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/ADITEYA_BARAL_CV_JUNE_2026.pdf
-ml_pdf: /assets/pdf/ADITEYA_BARAL_RESUME_ML_JUNE_2026.pdf
-swe_pdf: /assets/pdf/ADITEYA_BARAL_RESUME_SWE_JUNE_2026.pdf
+cv_pdf: /assets/pdf/ADITEYA_BARAL_CV_JULY_2026.pdf
+ml_pdf: /assets/pdf/ADITEYA_BARAL_RESUME_ML_JULY_2026.pdf
+swe_pdf: /assets/pdf/ADITEYA_BARAL_RESUME_SWE_JULY_2026.pdf
 cv_format: rendercv
 toc:
   sidebar: left

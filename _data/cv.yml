@@ -7,14 +7,14 @@ cv:
 
   sections:
     Education:
-      - studyType: Masters in Computer Science
+      - studyType: Master of Science in Computer Science
         institution: New York University, Courant Institute of Mathematical Sciences
         location: New York City, USA
         start_date: "Sep '24"
         end_date: "May '26"
         highlights:
           - "**Concentration**: Artificial Intelligence"
-          - Worked as a Research Assistant at CILVR and Computation & Psycholinguistics Lab, advised by Shauli Ravfogel, Jackson Petty, and Tal Linzen.
+          - Worked as a Research Assistant at CILVR lab, advised by Shauli Ravfogel, Jackson Petty, and Tal Linzen.
 
       - studyType: Bachelor of Technology in Computer Science & Engineering
         institution: PES University
@@ -24,7 +24,7 @@ cv:
         highlights:
           - "**Specialization**: Machine Intelligence and Data Science"
           - Received the Undergraduate Researcher Award for my work in the field of Machine Learning.
-          - Worked as a Research Assistant at the Center for Cloud Computing & Big Data, advised by Dr. KV Subramaniam.
+          - Worked as a Research Assistant at the Center for Cloud Computing & Big Data, advised by KV Subramaniam.
 
     Experience:
       - position: Applied Research Scientist Intern
@@ -32,33 +32,37 @@ cv:
         location: San Francisco, USA
         start_date: "Jun '25"
         end_date: "Dec '25"
+        summary: "Advisor: Srijith Rajamohan"
         highlights:
-          - "Architected a two-stage retrieval and re-ranking pipeline for [Redis LangCache](https://redis.io/langcache/), achieving a 12.5% PR-AUC and 8% P-CHR AUC improvement over baselines by integrating cross-encoder re-rankers for full token-level interaction."
-          - "Curated and open-sourced [LangCache SentencePairs (v1-v3)](https://huggingface.co/collections/redis/langcache-datasets), a large-scale dataset family spanning 1M to 40M examples from diverse linguistic sources, enabling robust fine-tuning of semantic retrieval and re-ranking models."
-          - "Open-sourced [LangCache ReRanker v1](https://huggingface.co/collections/redis/langcache-re-ranker-v1) and [v2](https://huggingface.co/collections/redis/langcache-re-ranker-v2) model families comprising cross-encoder variants fine-tuned with ranking and classification objectives, enabling application-specific score calibration for diverse semantic caching use cases."
-          - "Assisted in the fine-tuning and deployment of [LangCache Embed v3](https://huggingface.co/redis/langcache-embed-v3-small), a generalist model for semantic retrieval, achieving 13.5% PR-AUC improvement over v2 and outperforming larger general-purpose models even without re-ranking."
-          - "Developed a comprehensive evaluation framework integrated with [RedisVL](https://docs.redisvl.com/en/latest/) for LangCache customers, enabling systematic analysis of achievable P-CHR tradeoffs, valid cache-hit rates, and operational thresholds before onboarding."
-          - Quantified retriever bottlenecks and aggressive vs. conservative re-ranking effectiveness by analyzing recall ceilings and re-ranking movement to optimize operational trade-offs and improve cache-hit quality.
-          - "Supported downstream integration and development of [LMCache](https://lmcache.ai/) by building prototypes and conducting performance studies with Redis as an in-memory KV store, demonstrating latency and throughput gains."
+          - "Introduced **Precision–Cache Hit Ratio (P-CHR)** and **Calibration Retention Rate (CRR)**, two cache-aware metrics for [Redis LangCache](https://redis.io/langcache/), reframing semantic-cache model selection as a calibration problem rather than a ranking one."
+          - "Curated and open-sourced [LangCache SentencePairs (v1-v3)](https://huggingface.co/collections/redis/langcache-datasets), a large-scale dataset family with 1M to 40M sentence pairs across diverse paraphrase, STS, QA, and adversarial sources for robust semantic-caching fine-tuning."
+          - "Fine-tuned and deployed [LangCache-Embed-v3](https://huggingface.co/redis/langcache-embed-v3-small), a domain-specific bi-encoder trained with an ArcFace contrastive objective, leading all open-source retrievers offline and outperforming larger general-purpose models even without re-ranking."
+          - "Open-sourced the [LangCache ReRanker v1](https://huggingface.co/collections/redis/langcache-re-ranker-v1)/[v2](https://huggingface.co/collections/redis/langcache-re-ranker-v2) cross-encoder families with BCE and MNRL objectives at two training scales, isolating the effect of objective vs. scale on calibration and enabling application-specific behavior."
+          - "Built a comprehensive evaluation framework for customer onboarding with a large-scale study of customer data and model baselines across offline and deployment settings, using a two-stage [RedisVL](https://docs.redisvl.com/en/latest/) K-NN retrieval and re-ranking pipeline."
+          - Demonstrated that the highest-PR-AUC models are often the worst in deployment, and that re-ranking rarely improves a strong domain retriever, overturning the standard practice in semantic-cache model selection.
+          - "Supported downstream integration and development of [LMCache](https://lmcache.ai/) by building prototypes and benchmarking performance with Redis as an in-memory KV store, demonstrating latency and throughput gains."
 
       - position: Research Assistant
         name: Computational Intelligence, Vision, and Robotics (CILVR) Lab, NYU
         location: New York City, USA
         start_date: "May '25"
         end_date: "May '26"
+        summary: "Advisors: Shauli Ravfogel, Tal Linzen"
         highlights:
-          - Investigating arithmetic circuit dynamics in LLMs when operators are redefined in-context by analyzing activation representations and attention patterns across transformer layers using Llama-3.3-70B-Instruct.
-          - Conducting layer-wise analysis of activation geometry using PCA, centroid trajectories, and cluster separability metrics to trace representational evolution under operator semantic redefinition.
-          - Examining attention circuit reconfiguration at token and head levels to determine whether semantic remapping reuses existing circuits or activates distinct computational pathways.
+          - Investigated arithmetic circuit dynamics in language models when operators are redefined in-context by analyzing activation representations and attention patterns across transformer layers.
+          - Trained tiny (~3M params) LLaMA-style transformers on arithmetic operations under operator overloading to test whether transformers reuse circuits across semantically related tasks.
+          - Developed an activation-extraction and causal-attribution pipeline pairing neuron selection with Activation Patching, Direct Logit Attribution, and Fourier probes to separate causally necessary components from merely predictive ones.
+          - Identified and characterized a two-tier circuit structure across a model's depth and breadth, showing transformers organize computation around semantic operations rather than surface symbols.
 
       - position: Research Assistant
         name: Computation and Psycholinguistics Lab, NYU
         location: New York City, USA
         start_date: "May '25"
-        end_date: "May '26"
+        end_date: "Aug '25"
+        summary: "Advisors: Jackson Petty, Tal Linzen"
         highlights:
-          - Evaluating LLMs on compositional generalization and instruction synthesis by studying their ability to translate synthetic Context-Free Grammars (CFGs) into conforming strings.
-          - Analyzing model outputs in few- and zero-shot settings to assess grammatical conformity and uncover generation strategies used during translation.
+          - Evaluated LLMs on compositional generalization and instruction synthesis by studying their ability to translate synthetic Context-Free Grammars (CFGs) into conforming strings.
+          - Analyzed model outputs in few- and zero-shot settings to assess grammatical conformity and uncover generation strategies used during translation.
 
       - position: Big Data and Applied AI Engineer
         name: "Cisco Systems, Webex Media Quality Analytics"
@@ -89,6 +93,7 @@ cv:
         location: "Bengaluru, India"
         start_date: "Aug '21"
         end_date: "Dec '21"
+        summary: "Advisors: Anay Majee, Anbumani Subramanian"
         highlights:
           - Explored Few-Shot Learning Object Detection (FSOD) techniques to reduce catastrophic forgetting in constrained and heterogeneous driving environments.
           - Investigated and designed novel representation learning and attention mechanisms to learn inter/intra-object relationships using PyTorch.
@@ -99,21 +104,22 @@ cv:
         location: "Bengaluru, India"
         start_date: "May '20"
         end_date: "Jul '20"
+        summary: "Advisor: KV Subramaniam"
         highlights:
           - Compiled and used TailBench to simulate and profile application loads, monitor performance, and analyze results.
           - Explored ways to reduce tail latencies in latency-critical applications such as translation and image recognition.
 
     Skills:
       - name: Languages
-        keywords: [Python, Scala, Java, "C/C++", R, Groovy, SQL, LaTeX]
+        keywords: [Python, Scala, Java, "C/C++", Groovy, SQL, LaTeX]
       - name: ML/Stats Libraries
-        keywords: [PyTorch, TensorFlow, HuggingFace, NLTK, pandas, NumPy, scikit-learn, seaborn, matplotlib, plotly]
+        keywords: [PyTorch, TensorFlow, HuggingFace, WandB, vLLM, FAISS, pandas, NumPy, scikit-learn, matplotlib]
       - name: "AI/ML Techniques"
         keywords: [Representation Learning, Mechanistic Interpretability, Transfer Learning, Language Models, RAG]
       - name: Big Data/Cloud
         keywords: [Hadoop, Kafka, Zookeeper, Spark, Flink, Iceberg, Pinot, Redis, ELK]
       - name: Frameworks/Tools
-        keywords: [Git, GitHub, Jenkins, Docker, Kubernetes, Flask, Grafana, PSQL, MongoDB, AWS, Linux]
+        keywords: [Git, GitHub, Jenkins, Docker, Kubernetes, FastAPI, Grafana, PSQL, MongoDB, AWS, Linux]
 
     Honors and Awards:
       - title: "Second Place out of 20+ teams at Webex Analytics Datathon 2024"
@@ -151,12 +157,18 @@ cv:
         awarder: CMR National Public School
         summary: "Received extensive coverage and recognition for developing an Android app to track and schedule garbage collection in Bengaluru. The currently implemented model was based on our designs and proposals made to the BBMP. Coverage: [The Hindu](https://www.thehindu.com/news/cities/bangalore/waste-disposal-all-garbage-trucks-to-have-gps-devices/article29906398.ece), [India Today](https://www.indiatoday.in/cities/bengaluru/story/app-bangaloreans-track-garbage-vehicles-bbmp-gps-fails-1909736-2022-02-07), [Times of India](https://bangaloremirror.indiatimes.com/bangalore/others/these-12th-graders-want-app-solutely-no-garbage/articleshow/57619336.cms)."
 
-    Services and Volunteering:
-      - title: Speaker, Guest Lecture on - Building Foundation Models using Transformers
-        date: "2023"
-        awarder: PES University
-        summary: Delivered a guest lecture to undergraduate students on the advancements in representation learning techniques for language and highlighted the importance of interdisciplinary research.
+    Teaching:
       - title: "Teaching Assistant, CS322: Big Data"
         date: "2021"
         awarder: PES University
-        summary: Designed and graded coursework, assignments and projects, and delivered hands-on sessions on Hadoop and Spark for a class of 600+ enrolled students for the undergraduate Big Data course.
+        summary: "Faculty: KV Subramaniam, Prafullata K Auradkar, Animesh Giri. Designed and graded coursework, assignments and projects, and delivered hands-on sessions on Hadoop and Spark for a class of 600+ enrolled students for the undergraduate Big Data course."
+
+    Services and Volunteering:
+      - title: "Research Advisor, Summer Internship — Center for Cloud Computing & Big Data"
+        date: "2026"
+        awarder: PES University
+        summary: "Led the mechanistic interpretability group, advising 2 teams on distinct projects that train small transformers to study grokking, activation patching, and circuit-level learning and inference dynamics."
+      - title: Speaker, Guest Lecture — Building Foundation Models using Transformers
+        date: "2023"
+        awarder: PES University
+        summary: Delivered a guest lecture to undergraduate students on the advancements in representation learning techniques for language and highlighted the importance of interdisciplinary research.
