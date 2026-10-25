@@ -429,11 +429,17 @@ ninja.data = [{
           section: "News",},{id: "news-paper-titled-calbert-code-mixed-adaptive-language-representations-using-bert-accepted-at-the-make-symposium-aaai-2022",
           title: 'Paper titled “CalBERT – Code-Mixed Adaptive Language Representations Using BERT” accepted at the...',
           description: "",
+          section: "News",},{id: "news-graduated-with-a-bachelor-of-technology-from-pes-university-s-department-of-computer-science-and-engineering",
+          title: 'Graduated with a Bachelor of Technology from PES University’s Department of Computer Science...',
+          description: "",
           section: "News",},{id: "news-started-working-full-time-as-a-big-data-and-applied-ai-engineer-at-cisco-webex-as-part-of-the-media-quality-analytics-team",
           title: 'Started working full-time as a Big Data and Applied AI Engineer at Cisco...',
           description: "",
           section: "News",},{id: "news-paper-titled-chatbert-multi-task-approach-to-pre-training-for-structured-conversations-published-internally-at-cisco-webex-ai",
           title: 'Paper titled “ChatBERT - Multi-task approach to Pre-Training for Structured Conversations” published internally...',
+          description: "",
+          section: "News",},{id: "news-delivered-a-talk-titled-building-foundation-models-using-transformers-as-part-of-research-et-al-s-paper-talk-series-at-pes-university",
+          title: 'Delivered a talk titled “Building Foundation Models using Transformers” as part of Research...',
           description: "",
           section: "News",},{id: "news-started-my-master-of-science-in-computer-science-at-new-york-university-s-courant-institute-of-mathematics-computing-and-data-science",
           title: 'Started my Master of Science in Computer Science at New York University’s Courant...',
@@ -462,11 +468,20 @@ ninja.data = [{
           section: "News",},{id: "news-paper-titled-training-for-compositional-sensitivity-reduces-dense-retrieval-generalization-accepted-at-the-sci4dl-workshop-iclr-2026",
           title: 'Paper titled “Training for Compositional Sensitivity Reduces Dense Retrieval Generalization” accepted at the...',
           description: "",
-          section: "News",},{id: "news-started-advising-the-mechinterp-group-at-the-center-for-cloud-computing-amp-amp-big-data-pes-university-mentoring-two-teams-on-training-small-transformers-to-study-grokking-activation-patching-and-circuit-level-learning-and-inference-dynamics",
+          section: "News",},{id: "news-graduated-with-a-master-of-science-in-computer-science-from-new-york-university-s-courant-institute-of-mathematics-computing-and-data-science",
+          title: 'Graduated with a Master of Science in Computer Science from New York University’s...',
+          description: "",
+          section: "News",},{id: "news-started-advising-the-mechinterp-group-at-the-center-for-cloud-computing-amp-amp-big-data-pes-university-mentoring-teams-on-training-small-transformers-to-study-grokking-activation-patching-and-circuit-level-learning-and-inference-dynamics",
           title: 'Started advising the MechInterp group at the Center for Cloud Computing &amp;amp;amp; Big...',
           description: "",
-          section: "News",},{id: "news-preprint-titled-closing-the-calibration-gap-in-semantic-caching-released-on-arxiv",
-          title: 'Preprint titled “Closing the Calibration Gap in Semantic Caching” released on arXiv.',
+          section: "News",},{id: "news-preprint-titled-closing-the-operational-gap-in-semantic-caching-released-on-arxiv",
+          title: 'Preprint titled “Closing the Operational Gap in Semantic Caching” released on arXiv.',
+          description: "",
+          section: "News",},{id: "news-started-working-full-time-as-an-associate-machine-learning-engineer-at-jpmorganchase-as-part-of-the-wholesale-credit-risk-and-quant-research-team",
+          title: 'Started working full-time as an Associate Machine Learning Engineer at JPMorganChase as part...',
+          description: "",
+          section: "News",},{id: "news-paper-titled-closing-the-operational-gap-in-semantic-caching-accepted-at-the-industry-track-emnlp-2026",
+          title: 'Paper titled “Closing the Operational Gap in Semantic Caching” accepted at the Industry...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -543,6 +558,20 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.semanticscholar.org/author/2122681176", "_blank");
+        },
+      },{
+        id: 'social-dblp',
+        title: 'DBLP',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://dblp.org/pid/311/5778.html", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0007-6356-2464", "_blank");
         },
       },{
         id: 'social-github',
