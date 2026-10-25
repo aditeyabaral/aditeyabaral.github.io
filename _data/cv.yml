@@ -40,7 +40,7 @@ cv:
         end_date: "Dec '25"
         summary: "Advisor: Srijith Rajamohan"
         highlights:
-          - "Introduced **Precision–Cache Hit Ratio (P-CHR)** and **Operational Retention Rate (ORR)**, two cache-aware metrics for [Redis LangCache](https://redis.io/langcache/), reframing semantic-cache model selection as a thresholding problem rather than a ranking one."
+          - "Introduced Precision–Cache Hit Ratio (P-CHR) and Operational Retention Rate (ORR), two cache-aware metrics for [Redis LangCache](https://redis.io/langcache/), reframing semantic-cache model selection as a thresholding problem rather than a ranking one."
           - "Curated and open-sourced [LangCache SentencePairs (v1-v3)](https://huggingface.co/collections/redis/langcache-datasets), a large-scale dataset family with 1M to 40M sentence pairs across diverse paraphrase, STS, QA, and adversarial sources for robust semantic-caching fine-tuning."
           - "Fine-tuned and deployed [LangCache-Embed-v3](https://huggingface.co/redis/langcache-embed-v3-small), a domain-specific bi-encoder trained with an ArcFace contrastive objective, leading all open-source retrievers offline and outperforming larger general-purpose models even without re-ranking."
           - "Open-sourced the [LangCache ReRanker v1](https://huggingface.co/collections/redis/langcache-re-ranker-v1)/[v2](https://huggingface.co/collections/redis/langcache-re-ranker-v2) cross-encoder families with BCE and MNRL objectives at two training scales, isolating the effect of objective vs. scale on threshold behavior and application-specific tradeoffs."
