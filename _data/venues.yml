@@ -6,6 +6,10 @@
   color: "#6b7280"
   text_color: "#ffffff"
 
+"EMNLP ’26":
+  url: https://2026.emnlp.org/
+  color: "#b31b1b"
+
 "ICLR Sci4DL ’26":
   url: https://openreview.net/group?id=ICLR.cc/2026/Workshop/Sci4DL
   color: "#6366f1"

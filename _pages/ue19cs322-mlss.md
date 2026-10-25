@@ -71,11 +71,6 @@ learning**.
 
 15 marks
 
-# Submission Link
-
-[Portal for
-Big Data Assignment Submissions](http://34.136.179.213:8080/)
-
 # Submission Deadline
 
 3rd December 11:59 PM, 2021
@@ -127,7 +122,7 @@ functionalities that are dependent are bundled into a process that can be execut
 many helper modules as necessary.
 
 **This project is open-ended**, which
-means that *there is no correct answer*. You will be evaluated on how you choose to go about each phase,
+means that _there is no correct answer_. You will be evaluated on how you choose to go about each phase,
 what step you perform in each phase, the level and clarity of analysis performed while creating your models and
 on obtaining results and your conclusions you draw. **You will be graded on your approach and how you
 apply the tools provided by Spark MLlib** at your disposal rather than on the final scores you obtain
@@ -142,15 +137,15 @@ possible scores.
 
 **You are also allowed to pick any dataset
 for this task**. If you are choosing your own dataset, please contact any of the TAs and get it
-verified by us first. Also note that if you wish to choose your own dataset, you *may* be required to
+verified by us first. Also note that if you wish to choose your own dataset, you _may_ be required to
 write a custom streaming function to stream your dataset. You can use the datasets provided by us as a reference
 to look for datasets with similar characteristics. The only constraints on choosing the dataset are as follows:
 
 1. The dataset is for **classification
    only** – can be images, text or numeric/ordinal datasets
-2. The dataset has *atleast* 15000
+2. The dataset has _atleast_ 15000
    examples
-3. There are *atleast* 10 attributes in
+3. There are _atleast_ 10 attributes in
    the dataset, excluding the attribute for prediction
 
 # Streaming Data and Preprocessing

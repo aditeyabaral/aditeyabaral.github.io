@@ -27,6 +27,12 @@ cv:
           - Worked as a Research Assistant at the Center for Cloud Computing & Big Data, advised by KV Subramaniam.
 
     Experience:
+      - position: Associate Machine Learning Engineer
+        name: "JPMorganChase, Wholesale Credit Risk and Quant Research"
+        location: Plano, USA
+        start_date: "Aug '26"
+        end_date: Present
+
       - position: Applied Research Scientist Intern
         name: "Redis, LangCache"
         location: San Francisco, USA
@@ -34,10 +40,10 @@ cv:
         end_date: "Dec '25"
         summary: "Advisor: Srijith Rajamohan"
         highlights:
-          - "Introduced **Precision–Cache Hit Ratio (P-CHR)** and **Calibration Retention Rate (CRR)**, two cache-aware metrics for [Redis LangCache](https://redis.io/langcache/), reframing semantic-cache model selection as a calibration problem rather than a ranking one."
+          - "Introduced Precision–Cache Hit Ratio (P-CHR) and Operational Retention Rate (ORR), two cache-aware metrics for [Redis LangCache](https://redis.io/langcache/), reframing semantic-cache model selection as a thresholding problem rather than a ranking one."
           - "Curated and open-sourced [LangCache SentencePairs (v1-v3)](https://huggingface.co/collections/redis/langcache-datasets), a large-scale dataset family with 1M to 40M sentence pairs across diverse paraphrase, STS, QA, and adversarial sources for robust semantic-caching fine-tuning."
           - "Fine-tuned and deployed [LangCache-Embed-v3](https://huggingface.co/redis/langcache-embed-v3-small), a domain-specific bi-encoder trained with an ArcFace contrastive objective, leading all open-source retrievers offline and outperforming larger general-purpose models even without re-ranking."
-          - "Open-sourced the [LangCache ReRanker v1](https://huggingface.co/collections/redis/langcache-re-ranker-v1)/[v2](https://huggingface.co/collections/redis/langcache-re-ranker-v2) cross-encoder families with BCE and MNRL objectives at two training scales, isolating the effect of objective vs. scale on calibration and enabling application-specific behavior."
+          - "Open-sourced the [LangCache ReRanker v1](https://huggingface.co/collections/redis/langcache-re-ranker-v1)/[v2](https://huggingface.co/collections/redis/langcache-re-ranker-v2) cross-encoder families with BCE and MNRL objectives at two training scales, isolating the effect of objective vs. scale on threshold behavior and application-specific tradeoffs."
           - "Built a comprehensive evaluation framework for customer onboarding with a large-scale study of customer data and model baselines across offline and deployment settings, using a two-stage [RedisVL](https://docs.redisvl.com/en/latest/) K-NN retrieval and re-ranking pipeline."
           - Demonstrated that the highest-PR-AUC models are often the worst in deployment, and that re-ranking rarely improves a strong domain retriever, overturning the standard practice in semantic-cache model selection.
           - "Supported downstream integration and development of [LMCache](https://lmcache.ai/) by building prototypes and benchmarking performance with Redis as an in-memory KV store, demonstrating latency and throughput gains."
@@ -167,7 +173,7 @@ cv:
       - title: "Research Advisor, Summer Internship — Center for Cloud Computing & Big Data"
         date: "2026"
         awarder: PES University
-        summary: "Led the mechanistic interpretability group, advising 2 teams on distinct projects that train small transformers to study grokking, activation patching, and circuit-level learning and inference dynamics."
+        summary: "Led the mechanistic interpretability group, advising teams on distinct projects that train small transformers to study grokking, activation patching, and circuit-level learning and inference dynamics."
       - title: Speaker, Guest Lecture — Building Foundation Models using Transformers
         date: "2023"
         awarder: PES University

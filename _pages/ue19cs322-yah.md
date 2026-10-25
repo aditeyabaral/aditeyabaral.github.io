@@ -47,11 +47,6 @@ as desired.
 
 15 marks
 
-# Submission Link
-
-[Portal for Big
-Data Assignment Submissions](http://35.239.131.81:8080/)
-
 # Submission Deadline
 
 3rd December 11:59 PM, 2021
