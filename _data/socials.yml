@@ -5,11 +5,12 @@
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
-# dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 email: aditeyabaral@nyu.edu # your email address
 scholar_userid: n5tqnzUAAAAJ # your Google Scholar ID
 semanticscholar_id: 2122681176 # your Semantic Scholar ID
+dblp_url: https://dblp.org/pid/311/5778.html # your DBLP profile url
+orcid_id: 0009-0007-6356-2464 # your ORCID ID
 # research_gate_profile: Aditeya-Baral-2 # your profile on ResearchGate
 # ieee_id: 37088925575 # your ieeexplore.ieee.org/author/id
 # facebook_id: # your facebook id
@@ -26,7 +27,6 @@ github_username: aditeyabaral # your GitHub user name
 linkedin_username: aditeyabaral # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-# orcid_id: # your ORCID ID
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons

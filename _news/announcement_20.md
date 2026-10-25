@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Preprint titled "Closing the Calibration Gap in Semantic Caching" released on arXiv.
+Preprint titled "Closing the Operational Gap in Semantic Caching" released on arXiv.

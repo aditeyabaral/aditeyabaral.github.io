@@ -72,6 +72,38 @@ Teaching Assistant under [KV Subramaniam](https://www.linkedin.com/in/kalsubra/)
 - Delivered hands-on lab sessions on Hadoop and Spark setup and configuration
 - Conducted beta testing phases and managed changelogs for assignment releases
 
+## Submission Guidelines
+
+General submission specifications that applied to all assignments in the course.
+
+1. Ensure that you run your code on Hadoop before submitting, not just locally
+2. Your code will not be provided unlimited system resources to run. Any code taking > 15 minutes to execute will be automatically killed
+3. Ensure that you do not mix up tabs and spaces while writing code and ensure that there are no syntactical errors
+4. Name your Mapper `mapper.py` and Reducer `reducer.py`
+5. Refer to the assignment guidelines for specific instructions pertaining to an assignment
+
+Before submitting, the following changes had to be made to `mapper.py` and `reducer.py`:
+
+1. Include the following `shebang` on the first line of your code. This allows Hadoop to know how to execute your Python code
+
+   ```
+   #!/usr/bin/env python3
+   ```
+
+2. Convert your files to an executable using `chmod`
+
+   ```
+   chmod +x mapper.py reducer.py
+   ```
+
+3. Convert line breaks in `DOS` format to `Unix` format (this is **necessary** if you are coding on Windows)
+
+   ```
+   dos2unix mapper.py reducer.py
+   ```
+
+All submissions were run through a plagiarism checker, and the submission portal enforced checks on file types and sizes.
+
 ## Course Website
 
 [github.com/Cloud-Computing-Big-Data/cloud-computing-big-data.github.io](https://github.com/Cloud-Computing-Big-Data/cloud-computing-big-data.github.io)
